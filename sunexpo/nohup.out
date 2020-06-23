@@ -1,0 +1,1410 @@
+Traceback (most recent call last):
+  File "batchGVI-SVF-SF.py", line 12, in <module>
+    import StreetsideLib as sslib
+ModuleNotFoundError: No module named 'StreetsideLib'
+This is a directory
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start15000_end16000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start15000_end16000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start146000_end147000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start146000_end147000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start2000_end3000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start2000_end3000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start71000_end72000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start71000_end72000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start106000_end107000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start106000_end107000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start9000_end10000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start9000_end10000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start34000_end35000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start34000_end35000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start3000_end4000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start3000_end4000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start118000_end119000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start118000_end119000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start38000_end39000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start38000_end39000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start160000_end160564.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start160000_end160564.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start117000_end118000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start117000_end118000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start134000_end135000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start134000_end135000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start83000_end84000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start83000_end84000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start37000_end38000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start37000_end38000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start50000_end51000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start50000_end51000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start112000_end113000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start112000_end113000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start156000_end157000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start156000_end157000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start119000_end120000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start119000_end120000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start81000_end82000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start81000_end82000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start63000_end64000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start63000_end64000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start135000_end136000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start135000_end136000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start138000_end139000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start138000_end139000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start7000_end8000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start7000_end8000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start95000_end96000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start95000_end96000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start32000_end33000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start32000_end33000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start31000_end32000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start31000_end32000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start155000_end156000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start155000_end156000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start102000_end103000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start102000_end103000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start153000_end154000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start153000_end154000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start132000_end133000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start132000_end133000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start88000_end89000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start88000_end89000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start143000_end144000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start143000_end144000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start74000_end75000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start74000_end75000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start28000_end29000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start28000_end29000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start78000_end79000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start78000_end79000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start12000_end13000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start12000_end13000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start154000_end155000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start154000_end155000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start40000_end41000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start40000_end41000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start123000_end124000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start123000_end124000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start87000_end88000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start87000_end88000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start147000_end148000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start147000_end148000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start75000_end76000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start75000_end76000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start10000_end11000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start10000_end11000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start72000_end73000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start72000_end73000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start144000_end145000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start144000_end145000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start115000_end116000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start115000_end116000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start133000_end134000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start133000_end134000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start66000_end67000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start66000_end67000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start49000_end50000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start49000_end50000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start73000_end74000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start73000_end74000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start104000_end105000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start104000_end105000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start48000_end49000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start48000_end49000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start109000_end110000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start109000_end110000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start45000_end46000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start45000_end46000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start124000_end125000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start124000_end125000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start136000_end137000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start136000_end137000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start151000_end152000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start151000_end152000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start157000_end158000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start157000_end158000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start1000_end2000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start1000_end2000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start96000_end97000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start96000_end97000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start53000_end54000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start53000_end54000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start149000_end150000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start149000_end150000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start108000_end109000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start108000_end109000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start69000_end70000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start69000_end70000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start82000_end83000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start82000_end83000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start36000_end37000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start36000_end37000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start65000_end66000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start65000_end66000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start59000_end60000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start59000_end60000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start76000_end77000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start76000_end77000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start111000_end112000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start111000_end112000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start84000_end85000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start84000_end85000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start80000_end81000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start80000_end81000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start110000_end111000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start110000_end111000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start46000_end47000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start46000_end47000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start131000_end132000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start131000_end132000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start86000_end87000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start86000_end87000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start79000_end80000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start79000_end80000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start43000_end44000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start43000_end44000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start85000_end86000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start85000_end86000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start99000_end100000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start99000_end100000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start13000_end14000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start13000_end14000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start127000_end128000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start127000_end128000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start150000_end151000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start150000_end151000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start14000_end15000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start14000_end15000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start120000_end121000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start120000_end121000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start23000_end24000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start23000_end24000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start105000_end106000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start105000_end106000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start17000_end18000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start17000_end18000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start58000_end59000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start58000_end59000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start139000_end140000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start139000_end140000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start90000_end91000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start90000_end91000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start91000_end92000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start91000_end92000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start122000_end123000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start122000_end123000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start126000_end127000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start126000_end127000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start52000_end53000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start52000_end53000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start70000_end71000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start70000_end71000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start8000_end9000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start8000_end9000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start100000_end101000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start100000_end101000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start60000_end61000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start60000_end61000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start56000_end57000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start56000_end57000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start5000_end6000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start5000_end6000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start140000_end141000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start140000_end141000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start116000_end117000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start116000_end117000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start27000_end28000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start27000_end28000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start148000_end149000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start148000_end149000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start141000_end142000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start141000_end142000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start67000_end68000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start67000_end68000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start64000_end65000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start64000_end65000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start137000_end138000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start137000_end138000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start94000_end95000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start94000_end95000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start16000_end17000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start16000_end17000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start29000_end30000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start29000_end30000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start113000_end114000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start113000_end114000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start145000_end146000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start145000_end146000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start55000_end56000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start55000_end56000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start107000_end108000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start107000_end108000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start77000_end78000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start77000_end78000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start24000_end25000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start24000_end25000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start152000_end153000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start152000_end153000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start130000_end131000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start130000_end131000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start93000_end94000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start93000_end94000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start51000_end52000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start51000_end52000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start11000_end12000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start11000_end12000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start30000_end31000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start30000_end31000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start129000_end130000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start129000_end130000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start25000_end26000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start25000_end26000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start35000_end36000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start35000_end36000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start128000_end129000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start128000_end129000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start26000_end27000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start26000_end27000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start114000_end115000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start114000_end115000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start92000_end93000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start92000_end93000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start4000_end5000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start4000_end5000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start21000_end22000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start21000_end22000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start18000_end19000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start18000_end19000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start19000_end20000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start19000_end20000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start89000_end90000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start89000_end90000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start57000_end58000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start57000_end58000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start62000_end63000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start62000_end63000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start97000_end98000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start97000_end98000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start39000_end40000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start39000_end40000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start44000_end45000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start44000_end45000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start42000_end43000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start42000_end43000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start22000_end23000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start22000_end23000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start103000_end104000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start103000_end104000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start98000_end99000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start98000_end99000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start61000_end62000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start61000_end62000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start54000_end55000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start54000_end55000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start33000_end34000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start33000_end34000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start101000_end102000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start101000_end102000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start6000_end7000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start6000_end7000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start47000_end48000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start47000_end48000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start125000_end126000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start125000_end126000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start158000_end159000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start158000_end159000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start159000_end160000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start159000_end160000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start41000_end42000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start41000_end42000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start0_end1000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start0_end1000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start121000_end122000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start121000_end122000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start68000_end69000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start68000_end69000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start20000_end21000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start20000_end21000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Houston/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start142000_end143000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Houston/metadata/Pnt_start142000_end143000.txt
+You are calling the function of metadata_add_tilts
+This is a directory
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start15000_end16000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start15000_end16000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start146000_end147000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start146000_end147000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start167000_end168000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start167000_end168000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start2000_end3000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start2000_end3000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start71000_end72000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start71000_end72000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start106000_end107000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start106000_end107000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start9000_end10000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start9000_end10000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start34000_end35000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start34000_end35000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start3000_end4000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start3000_end4000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start118000_end119000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start118000_end119000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start183000_end184000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start183000_end184000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start38000_end39000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start38000_end39000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start117000_end118000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start117000_end118000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start134000_end135000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start134000_end135000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start83000_end84000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start83000_end84000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start37000_end38000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start37000_end38000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start172000_end173000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start172000_end173000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start50000_end51000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start50000_end51000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start112000_end113000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start112000_end113000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start175000_end176000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start175000_end176000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start156000_end157000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start156000_end157000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start119000_end120000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start119000_end120000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start163000_end164000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start163000_end164000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start81000_end82000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start81000_end82000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start63000_end64000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start63000_end64000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start135000_end136000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start135000_end136000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start138000_end139000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start138000_end139000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start7000_end8000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start7000_end8000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start95000_end96000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start95000_end96000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start187000_end188000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start187000_end188000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start32000_end33000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start32000_end33000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start31000_end32000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start31000_end32000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start166000_end167000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start166000_end167000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start155000_end156000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start155000_end156000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start102000_end103000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start102000_end103000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start188000_end188346.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start188000_end188346.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start153000_end154000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start153000_end154000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start132000_end133000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start132000_end133000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start88000_end89000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start88000_end89000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start143000_end144000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start143000_end144000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start74000_end75000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start74000_end75000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start160000_end161000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start160000_end161000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start28000_end29000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start28000_end29000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start78000_end79000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start78000_end79000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start12000_end13000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start12000_end13000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start154000_end155000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start154000_end155000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start40000_end41000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start40000_end41000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start123000_end124000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start123000_end124000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start87000_end88000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start87000_end88000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start147000_end148000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start147000_end148000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start173000_end174000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start173000_end174000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start75000_end76000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start75000_end76000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start10000_end11000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start10000_end11000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start72000_end73000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start72000_end73000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start164000_end165000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start164000_end165000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start144000_end145000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start144000_end145000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start115000_end116000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start115000_end116000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start133000_end134000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start133000_end134000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start66000_end67000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start66000_end67000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start174000_end175000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start174000_end175000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start168000_end169000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start168000_end169000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start49000_end50000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start49000_end50000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start73000_end74000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start73000_end74000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start104000_end105000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start104000_end105000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start48000_end49000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start48000_end49000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start109000_end110000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start109000_end110000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start45000_end46000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start45000_end46000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start169000_end170000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start169000_end170000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start124000_end125000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start124000_end125000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start136000_end137000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start136000_end137000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start151000_end152000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start151000_end152000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start157000_end158000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start157000_end158000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start1000_end2000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start1000_end2000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start96000_end97000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start96000_end97000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start53000_end54000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start53000_end54000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start149000_end150000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start149000_end150000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start108000_end109000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start108000_end109000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start165000_end166000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start165000_end166000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start69000_end70000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start69000_end70000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start82000_end83000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start82000_end83000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start36000_end37000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start36000_end37000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start65000_end66000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start65000_end66000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start59000_end60000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start59000_end60000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start76000_end77000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start76000_end77000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start111000_end112000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start111000_end112000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start84000_end85000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start84000_end85000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start80000_end81000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start80000_end81000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start110000_end111000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start110000_end111000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start46000_end47000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start46000_end47000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start131000_end132000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start131000_end132000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start182000_end183000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start182000_end183000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start86000_end87000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start86000_end87000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start79000_end80000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start79000_end80000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start43000_end44000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start43000_end44000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start85000_end86000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start85000_end86000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start99000_end100000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start99000_end100000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start177000_end178000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start177000_end178000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start13000_end14000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start13000_end14000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start127000_end128000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start127000_end128000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start181000_end182000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start181000_end182000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start150000_end151000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start150000_end151000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start14000_end15000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start14000_end15000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start120000_end121000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start120000_end121000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start23000_end24000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start23000_end24000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start186000_end187000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start186000_end187000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start170000_end171000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start170000_end171000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start105000_end106000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start105000_end106000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start17000_end18000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start17000_end18000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start58000_end59000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start58000_end59000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start185000_end186000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start185000_end186000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start139000_end140000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start139000_end140000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start90000_end91000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start90000_end91000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start91000_end92000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start91000_end92000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start122000_end123000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start122000_end123000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start126000_end127000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start126000_end127000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start180000_end181000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start180000_end181000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start184000_end185000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start184000_end185000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start52000_end53000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start52000_end53000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start70000_end71000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start70000_end71000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start8000_end9000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start8000_end9000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start171000_end172000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start171000_end172000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start100000_end101000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start100000_end101000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start60000_end61000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start60000_end61000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start56000_end57000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start56000_end57000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start5000_end6000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start5000_end6000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start140000_end141000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start140000_end141000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start116000_end117000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start116000_end117000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start27000_end28000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start27000_end28000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start148000_end149000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start148000_end149000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start141000_end142000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start141000_end142000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start67000_end68000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start67000_end68000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start64000_end65000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start64000_end65000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start137000_end138000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start137000_end138000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start94000_end95000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start94000_end95000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start16000_end17000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start16000_end17000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start29000_end30000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start29000_end30000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start113000_end114000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start113000_end114000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start145000_end146000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start145000_end146000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start55000_end56000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start55000_end56000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start107000_end108000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start107000_end108000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start77000_end78000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start77000_end78000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start24000_end25000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start24000_end25000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start152000_end153000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start152000_end153000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start130000_end131000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start130000_end131000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start93000_end94000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start93000_end94000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start51000_end52000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start51000_end52000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start11000_end12000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start11000_end12000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start30000_end31000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start30000_end31000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start129000_end130000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start129000_end130000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start161000_end162000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start161000_end162000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start179000_end180000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start179000_end180000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start25000_end26000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start25000_end26000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start35000_end36000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start35000_end36000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start128000_end129000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start128000_end129000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start26000_end27000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start26000_end27000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start114000_end115000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start114000_end115000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start92000_end93000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start92000_end93000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start4000_end5000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start4000_end5000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start21000_end22000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start21000_end22000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start18000_end19000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start18000_end19000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start19000_end20000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start19000_end20000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start89000_end90000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start89000_end90000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start57000_end58000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start57000_end58000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start62000_end63000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start62000_end63000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start97000_end98000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start97000_end98000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start39000_end40000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start39000_end40000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start44000_end45000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start44000_end45000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start42000_end43000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start42000_end43000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start22000_end23000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start22000_end23000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start103000_end104000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start103000_end104000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start98000_end99000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start98000_end99000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start61000_end62000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start61000_end62000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start162000_end163000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start162000_end163000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start54000_end55000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start54000_end55000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start33000_end34000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start33000_end34000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start101000_end102000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start101000_end102000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start178000_end179000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start178000_end179000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start6000_end7000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start6000_end7000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start47000_end48000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start47000_end48000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start125000_end126000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start125000_end126000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start158000_end159000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start158000_end159000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start159000_end160000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start159000_end160000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start41000_end42000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start41000_end42000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start0_end1000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start0_end1000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start121000_end122000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start121000_end122000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start68000_end69000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start68000_end69000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start176000_end177000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start176000_end177000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start20000_end21000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start20000_end21000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/Memphis/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start142000_end143000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/Memphis/metadata/Pnt_start142000_end143000.txt
+You are calling the function of metadata_add_tilts
+This is a directory
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start194000_end195000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start194000_end195000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start15000_end16000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start15000_end16000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start257000_end258000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start257000_end258000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start329000_end330000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start329000_end330000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start263000_end264000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start263000_end264000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start258000_end259000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start258000_end259000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start146000_end147000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start146000_end147000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start273000_end274000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start273000_end274000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start292000_end293000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start292000_end293000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start167000_end168000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start167000_end168000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start2000_end3000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start2000_end3000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start71000_end72000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start71000_end72000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start106000_end107000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start106000_end107000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start245000_end246000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start245000_end246000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start261000_end262000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start261000_end262000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start232000_end233000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start232000_end233000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start9000_end10000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start9000_end10000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start279000_end280000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start279000_end280000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start206000_end207000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start206000_end207000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start332000_end333000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start332000_end333000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start34000_end35000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start34000_end35000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start3000_end4000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start3000_end4000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start211000_end212000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start211000_end212000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start118000_end119000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start118000_end119000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start255000_end256000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start255000_end256000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start242000_end243000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start242000_end243000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start183000_end184000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start183000_end184000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start38000_end39000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start38000_end39000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start117000_end118000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start117000_end118000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start134000_end135000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start134000_end135000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start83000_end84000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start83000_end84000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start37000_end38000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start37000_end38000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start172000_end173000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start172000_end173000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start50000_end51000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start50000_end51000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start112000_end113000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start112000_end113000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start175000_end176000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start175000_end176000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start241000_end242000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start241000_end242000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start289000_end290000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start289000_end290000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start156000_end157000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start156000_end157000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start335000_end336000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start335000_end336000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start215000_end216000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start215000_end216000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start119000_end120000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start119000_end120000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start262000_end263000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start262000_end263000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start163000_end164000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start163000_end164000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start202000_end203000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start202000_end203000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start81000_end82000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start81000_end82000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start63000_end64000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start63000_end64000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start135000_end136000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start135000_end136000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start138000_end139000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start138000_end139000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start317000_end318000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start317000_end318000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start7000_end8000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start7000_end8000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start331000_end332000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start331000_end332000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start95000_end96000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start95000_end96000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start307000_end308000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start307000_end308000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start187000_end188000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start187000_end188000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start274000_end275000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start274000_end275000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start297000_end298000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start297000_end298000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start287000_end288000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start287000_end288000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start32000_end33000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start32000_end33000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start31000_end32000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start31000_end32000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start166000_end167000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start166000_end167000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start195000_end196000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start195000_end196000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start302000_end303000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start302000_end303000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start155000_end156000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start155000_end156000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start102000_end103000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start102000_end103000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start214000_end215000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start214000_end215000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start153000_end154000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start153000_end154000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start132000_end133000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start132000_end133000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start88000_end89000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start88000_end89000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start143000_end144000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start143000_end144000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start74000_end75000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start74000_end75000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start233000_end234000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start233000_end234000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start290000_end291000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start290000_end291000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start160000_end161000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start160000_end161000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start237000_end238000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start237000_end238000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start343000_end344000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start343000_end344000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start269000_end270000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start269000_end270000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start324000_end325000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start324000_end325000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start285000_end286000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start285000_end286000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start288000_end289000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start288000_end289000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start252000_end253000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start252000_end253000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start28000_end29000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start28000_end29000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start78000_end79000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start78000_end79000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start12000_end13000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start12000_end13000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start154000_end155000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start154000_end155000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start40000_end41000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start40000_end41000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start123000_end124000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start123000_end124000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start310000_end311000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start310000_end311000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start300000_end301000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start300000_end301000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start189000_end190000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start189000_end190000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start243000_end244000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start243000_end244000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start87000_end88000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start87000_end88000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start320000_end321000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start320000_end321000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start298000_end299000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start298000_end299000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start338000_end339000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start338000_end339000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start296000_end297000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start296000_end297000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start147000_end148000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start147000_end148000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start173000_end174000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start173000_end174000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start75000_end76000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start75000_end76000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start207000_end208000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start207000_end208000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start270000_end271000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start270000_end271000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start198000_end199000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start198000_end199000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start10000_end11000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start10000_end11000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start286000_end287000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start286000_end287000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start216000_end217000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start216000_end217000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start72000_end73000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start72000_end73000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start235000_end236000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start235000_end236000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start196000_end197000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start196000_end197000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start334000_end335000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start334000_end335000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start164000_end165000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start164000_end165000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start222000_end223000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start222000_end223000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start314000_end315000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start314000_end315000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start321000_end322000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start321000_end322000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start294000_end295000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start294000_end295000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start144000_end145000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start144000_end145000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start115000_end116000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start115000_end116000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start133000_end134000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start133000_end134000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start66000_end67000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start66000_end67000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start174000_end175000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start174000_end175000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start293000_end294000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start293000_end294000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start168000_end169000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start168000_end169000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start49000_end50000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start49000_end50000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start73000_end74000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start73000_end74000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start104000_end105000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start104000_end105000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start48000_end49000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start48000_end49000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start109000_end110000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start109000_end110000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start45000_end46000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start45000_end46000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start295000_end296000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start295000_end296000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start169000_end170000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start169000_end170000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start246000_end247000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start246000_end247000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start253000_end254000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start253000_end254000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start124000_end125000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start124000_end125000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start136000_end137000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start136000_end137000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start151000_end152000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start151000_end152000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start301000_end302000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start301000_end302000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start268000_end269000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start268000_end269000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start341000_end342000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start341000_end342000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start157000_end158000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start157000_end158000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start259000_end260000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start259000_end260000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start326000_end327000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start326000_end327000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start190000_end191000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start190000_end191000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start315000_end316000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start315000_end316000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start254000_end255000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start254000_end255000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start1000_end2000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start1000_end2000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start313000_end314000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start313000_end314000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start319000_end320000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start319000_end320000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start96000_end97000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start96000_end97000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start349000_end349574.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start349000_end349574.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start53000_end54000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start53000_end54000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start337000_end338000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start337000_end338000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start193000_end194000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start193000_end194000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start327000_end328000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start327000_end328000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start149000_end150000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start149000_end150000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start251000_end252000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start251000_end252000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start229000_end230000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start229000_end230000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start108000_end109000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start108000_end109000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start165000_end166000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start165000_end166000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start69000_end70000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start69000_end70000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start82000_end83000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start82000_end83000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start199000_end200000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start199000_end200000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start325000_end326000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start325000_end326000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start36000_end37000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start36000_end37000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start65000_end66000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start65000_end66000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start209000_end210000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start209000_end210000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start59000_end60000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start59000_end60000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start299000_end300000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start299000_end300000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start239000_end240000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start239000_end240000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start76000_end77000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start76000_end77000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start266000_end267000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start266000_end267000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start111000_end112000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start111000_end112000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start84000_end85000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start84000_end85000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start218000_end219000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start218000_end219000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start244000_end245000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start244000_end245000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start250000_end251000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start250000_end251000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start80000_end81000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start80000_end81000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start200000_end201000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start200000_end201000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start110000_end111000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start110000_end111000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start249000_end250000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start249000_end250000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start283000_end284000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start283000_end284000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start46000_end47000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start46000_end47000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start131000_end132000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start131000_end132000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start182000_end183000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start182000_end183000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start311000_end312000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start311000_end312000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start204000_end205000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start204000_end205000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start305000_end306000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start305000_end306000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start316000_end317000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start316000_end317000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start277000_end278000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start277000_end278000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start86000_end87000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start86000_end87000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start79000_end80000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start79000_end80000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start339000_end340000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start339000_end340000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start213000_end214000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start213000_end214000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start43000_end44000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start43000_end44000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start85000_end86000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start85000_end86000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start99000_end100000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start99000_end100000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start177000_end178000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start177000_end178000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start13000_end14000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start13000_end14000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start264000_end265000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start264000_end265000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start260000_end261000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start260000_end261000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start127000_end128000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start127000_end128000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start291000_end292000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start291000_end292000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start181000_end182000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start181000_end182000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start275000_end276000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start275000_end276000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start150000_end151000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start150000_end151000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start14000_end15000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start14000_end15000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start120000_end121000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start120000_end121000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start330000_end331000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start330000_end331000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start223000_end224000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start223000_end224000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start267000_end268000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start267000_end268000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start348000_end349000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start348000_end349000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start23000_end24000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start23000_end24000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start186000_end187000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start186000_end187000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start170000_end171000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start170000_end171000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start265000_end266000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start265000_end266000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start105000_end106000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start105000_end106000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start271000_end272000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start271000_end272000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start306000_end307000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start306000_end307000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start346000_end347000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start346000_end347000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start225000_end226000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start225000_end226000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start17000_end18000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start17000_end18000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start58000_end59000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start58000_end59000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start282000_end283000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start282000_end283000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start333000_end334000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start333000_end334000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start185000_end186000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start185000_end186000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start139000_end140000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start139000_end140000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start90000_end91000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start90000_end91000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start284000_end285000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start284000_end285000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start91000_end92000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start91000_end92000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start192000_end193000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start192000_end193000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start328000_end329000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start328000_end329000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start212000_end213000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start212000_end213000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start122000_end123000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start122000_end123000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start347000_end348000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start347000_end348000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start126000_end127000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start126000_end127000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start180000_end181000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start180000_end181000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start184000_end185000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start184000_end185000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start52000_end53000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start52000_end53000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start345000_end346000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start345000_end346000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start70000_end71000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start70000_end71000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start8000_end9000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start8000_end9000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start191000_end192000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start191000_end192000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start171000_end172000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start171000_end172000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start100000_end101000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start100000_end101000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start318000_end319000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start318000_end319000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start60000_end61000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start60000_end61000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start56000_end57000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start56000_end57000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start5000_end6000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start5000_end6000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start140000_end141000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start140000_end141000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start116000_end117000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start116000_end117000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start231000_end232000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start231000_end232000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start281000_end282000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start281000_end282000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start27000_end28000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start27000_end28000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start148000_end149000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start148000_end149000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start141000_end142000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start141000_end142000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start67000_end68000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start67000_end68000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start304000_end305000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start304000_end305000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start64000_end65000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start64000_end65000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start238000_end239000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start238000_end239000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start137000_end138000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start137000_end138000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start278000_end279000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start278000_end279000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start94000_end95000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start94000_end95000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start16000_end17000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start16000_end17000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start29000_end30000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start29000_end30000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start113000_end114000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start113000_end114000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start145000_end146000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start145000_end146000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start55000_end56000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start55000_end56000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start248000_end249000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start248000_end249000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start107000_end108000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start107000_end108000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start77000_end78000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start77000_end78000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start24000_end25000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start24000_end25000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start152000_end153000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start152000_end153000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start224000_end225000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start224000_end225000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start130000_end131000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start130000_end131000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start205000_end206000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start205000_end206000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start93000_end94000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start93000_end94000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start51000_end52000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start51000_end52000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start188000_end189000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start188000_end189000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start303000_end304000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start303000_end304000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start11000_end12000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start11000_end12000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start30000_end31000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start30000_end31000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start344000_end345000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start344000_end345000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start129000_end130000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start129000_end130000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start226000_end227000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start226000_end227000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start276000_end277000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start276000_end277000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start161000_end162000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start161000_end162000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start179000_end180000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start179000_end180000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start217000_end218000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start217000_end218000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start25000_end26000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start25000_end26000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start234000_end235000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start234000_end235000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start35000_end36000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start35000_end36000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start128000_end129000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start128000_end129000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start26000_end27000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start26000_end27000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start203000_end204000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start203000_end204000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start114000_end115000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start114000_end115000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start228000_end229000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start228000_end229000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start92000_end93000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start92000_end93000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start221000_end222000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start221000_end222000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start4000_end5000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start4000_end5000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start236000_end237000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start236000_end237000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start21000_end22000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start21000_end22000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start18000_end19000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start18000_end19000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start309000_end310000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start309000_end310000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start323000_end324000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start323000_end324000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start336000_end337000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start336000_end337000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start19000_end20000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start19000_end20000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start89000_end90000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start89000_end90000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start57000_end58000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start57000_end58000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start210000_end211000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start210000_end211000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start62000_end63000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start62000_end63000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start97000_end98000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start97000_end98000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start322000_end323000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start322000_end323000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start312000_end313000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start312000_end313000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start227000_end228000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start227000_end228000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start201000_end202000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start201000_end202000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start39000_end40000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start39000_end40000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start44000_end45000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start44000_end45000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start308000_end309000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start308000_end309000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start247000_end248000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start247000_end248000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start42000_end43000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start42000_end43000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start22000_end23000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start22000_end23000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start103000_end104000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start103000_end104000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start219000_end220000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start219000_end220000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start98000_end99000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start98000_end99000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start197000_end198000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start197000_end198000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start230000_end231000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start230000_end231000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start272000_end273000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start272000_end273000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start280000_end281000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start280000_end281000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start256000_end257000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start256000_end257000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start61000_end62000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start61000_end62000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start340000_end341000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start340000_end341000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start162000_end163000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start162000_end163000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start54000_end55000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start54000_end55000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start208000_end209000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start208000_end209000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start33000_end34000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start33000_end34000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start342000_end343000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start342000_end343000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start101000_end102000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start101000_end102000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start240000_end241000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start240000_end241000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start178000_end179000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start178000_end179000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start6000_end7000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start6000_end7000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start47000_end48000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start47000_end48000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start125000_end126000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start125000_end126000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start158000_end159000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start158000_end159000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start159000_end160000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start159000_end160000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start41000_end42000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start41000_end42000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start0_end1000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start0_end1000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start121000_end122000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start121000_end122000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start220000_end221000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start220000_end221000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start68000_end69000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start68000_end69000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start176000_end177000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start176000_end177000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start20000_end21000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start20000_end21000.txt
+The output is: /home/xiaojiang/researchProj/datasets/gsv-data/NYC/cleaned-metadata-sw-recentyear/Cleaned_Pnt_start142000_end143000.txt
+/home/xiaojiang/researchProj/datasets/gsv-data/NYC/metadata/Pnt_start142000_end143000.txt
+You are calling the function of metadata_add_tilts
