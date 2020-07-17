@@ -2,13 +2,9 @@ import json
 import zipfile, io
 import glob, os
 import urllib.parse, urllib.request
-import glob, os
 import ssl
-
 import requests
 from bs4 import BeautifulSoup
-# from satsearch import Search 
-import geopandas as gpd
 
 
 ########## start __main__ function ##########
