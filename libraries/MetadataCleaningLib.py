@@ -129,79 +129,14 @@ def metadataCleaning (Metadata, cleanedMetadataFolder, greenMonthList):
         for file in os.listdir(Metadata):
             if not file.endswith('.txt'): continue
             filename = os.path.join(Metadata, file)
-            # metadataCleaning_txt (filename, cleanedMetadataFolder)
             metadataCleaning_winter_summer_txt(filename, cleanedMetadataFolder, greenMonthList)
     
     elif os.path.isfile(Metadata) and Metadata.endswith('.txt'): # the input is a file
-        # metadataCleaning_txt (Metadata, cleanedMetadataFolder)
         print ('---------------------', Metadata)
         metadataCleaning_winter_summer_txt(Metadata, cleanedMetadataFolder, greenMonthList)
 
     else:
         return
-
-
-def metadataCleaning_txt (MetadataTxt, cleanedMetadataFolder):
-    '''
-    This script is used to clean the metadata collected from historyMetadata code
-    the historical metadata include several sites for one point, we need select one
-    site for a specific point, we may only need some specific seasons data
-    First Version Feb 28, 2018
-    last modified by Xiaojiang Li, MIT Senseable City Lab
-    
-    parameters:
-        MetadataTxt: the input metadata txt file or folder
-        cleanedMetadataFolder: the output folder of the cleaned metadata
-    '''
-    import os,os.path
-    import sys
-    
-    # get the basename and formulate the output name
-    basename = os.path.basename(MetadataTxt)
-    if not os.path.exists(cleanedMetadataFolder):
-        os.mkdir(cleanedMetadataFolder)
-    cleanedMetadataTxt = os.path.join(cleanedMetadataFolder, 'Cleaned_'+basename)
-
-    # write to the output cleaned folder
-    with open(cleanedMetadataTxt, 'w') as panoInfoText:
-        # the metadata of the GSV panorama
-        lines = open(MetadataTxt,"r")
-        
-        # panonum list, used to select only one pano for one site
-        panonumlist = []
-        panolonlist = []
-        panolatlist = []
-        panoidlist = []
-        
-        # loop all the panorama records
-        for line in lines:
-            elements = line.split(' ')
-            pntnum = elements[1]
-            panoid = elements[3]
-            panoyear = elements[5]
-            panomonth = elements[7]
-            panodate = panoyear + '-' + panomonth
-
-            panolon = float(elements[9])
-            panolat = float(elements[11])
-            hyaw = float(elements[13])
-            vyaw = float(elements[15])
-
-            print ('panid, panodata, lon, lat, hyaw, vyaw', panoid, panoyear, panomonth, panolon, panolat, hyaw, vyaw)
-
-            # for the leaf on seasons, could change to other seasons
-            if panomonth not in ['06', '07', '08', '09', '10'] or panoyear == '2007':
-                continue
-
-            # calculate the sun glare for leaf-on season
-            if pntnum not in panonumlist and panoid not in panoidlist:
-                panonumlist.append(pntnum)
-                panoidlist.append(panoid)
-
-                lineTxt = 'pntnum: %s panoID: %s panoDate: %s longitude: %s latitude: %s pano_yaw_degree: %s tilt_pitch_deg: %s\n'%(pntnum, panoid, panodate, panolon, panolat, hyaw, vyaw)
-                panoInfoText.write(lineTxt)
-
-    panoInfoText.close()
 
 
 
@@ -332,44 +267,6 @@ def metadata_txt_add_tilts(in_metadata_filename, complete_cleanedMetadata):
 
 
 
-# deal with folder
-def metadata_add_tilts(cleanedMetadata, outputFolder):
-    '''
-    This function is used to add tilt angle to all previous collected metadata
-    this funtion uses recusive statements to implement it.
-    Copyright(C) Xiaojiang Li, SunExpo
-    last modified on May 15, 2018
-    '''
-
-    import os, os.path
-
-    # create the output folder
-    if not os.path.exists(outputFolder):
-        os.mkdir(outputFolder)
-
-    # loop all files in the input folder
-    if os.path.isdir(cleanedMetadata) and cleanedMetadata != '.DS_Store':
-        for file in os.listdir(cleanedMetadata):
-            metadata_filename = os.path.join(cleanedMetadata, file)
-            basename = os.path.basename(metadata_filename)
-
-            if basename == '.DS_Store': continue
-
-            # the ouput name for each state
-            outputfolder_state = os.path.join(outputFolder, basename)
-            # print ('outputfolder_state', outputfolder_state)
-            if not os.path.exists(outputfolder_state):
-                os.mkdir(outputfolder_state)
-
-            # loop all txt files in each state
-            if os.path.isdir(metadata_filename) and metadata_filename != '.DS_Store':
-                for file2 in os.listdir(metadata_filename):
-                    if not file2.endswith('.txt'): continue
-                    metadata_filename_state = os.path.join(metadata_filename, file2)
-                    metadata_txt_add_tilts(metadata_filename_state, outputfolder_state)
-
-
-
 if __name__ == "__main__":
     
     import os,os.path
@@ -412,10 +309,7 @@ if __name__ == "__main__":
     root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Data-pre'
     cleanedMetadata = os.path.join(root, 'cleanedMetadata')  #, 'Cleaned_Pnt_start0_end1000.txt'
     complete_cleanedMetadata = os.path.join(root, 'tilt_cleanedMetadata')
-    # metadata_add_tilts(cleanedMetadata, complete_cleanedMetadata)
-    
-    print ('You are calling the function of metadata_add_tilts')
-    
+
     
     #------ For Cambridge dense metadata ----------
     root = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/SunGlare/spatial-data/metadata'

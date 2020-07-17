@@ -392,43 +392,6 @@ def metadata_txt_add_tilts(in_metadata_filename, complete_cleanedMetadata):
 
 
 
-# deal with folder
-def metadata_add_tilts(cleanedMetadata, outputFolder):
-    '''
-    This function is used to add tilt angle to all previous collected metadata
-    this funtion uses recusive statements to implement it.
-    Copyright(C) Xiaojiang Li, SunExpo
-    last modified on May 15, 2018
-    '''
-
-    import os, os.path
-
-    # create the output folder
-    if not os.path.exists(outputFolder):
-        os.mkdir(outputFolder)
-
-    # loop all files in the input folder
-    if os.path.isdir(cleanedMetadata) and cleanedMetadata != '.DS_Store':
-        for file in os.listdir(cleanedMetadata):
-            metadata_filename = os.path.join(cleanedMetadata, file)
-            basename = os.path.basename(metadata_filename)
-
-            if basename == '.DS_Store': continue
-
-            # the ouput name for each state
-            outputfolder_state = os.path.join(outputFolder, basename)
-            # print ('outputfolder_state', outputfolder_state)
-            if not os.path.exists(outputfolder_state):
-                os.mkdir(outputfolder_state)
-
-            # loop all txt files in each state
-            if os.path.isdir(metadata_filename) and metadata_filename != '.DS_Store':
-                for file2 in os.listdir(metadata_filename):
-                    if not file2.endswith('.txt'): continue
-                    metadata_filename_state = os.path.join(metadata_filename, file2)
-                    metadata_txt_add_tilts(metadata_filename_state, outputfolder_state)
-
-
 
 if __name__ == "__main__":
     
@@ -468,9 +431,7 @@ if __name__ == "__main__":
     root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Data-pre'
     cleanedMetadata = os.path.join(root, 'cleanedMetadata')  #, 'Cleaned_Pnt_start0_end1000.txt'
     complete_cleanedMetadata = os.path.join(root, 'tilt_cleanedMetadata')
-    # metadata_add_tilts(cleanedMetadata, complete_cleanedMetadata)
-    
-    print ('You are calling the function of metadata_add_tilts')
+
     
     
     

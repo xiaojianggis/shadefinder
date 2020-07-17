@@ -1056,11 +1056,9 @@ def metadataCleaning_winter_summer (Metadata, cleanedMetadataFolder):
         for file in os.listdir(Metadata):
             if not file.endswith('.txt'): continue
             filename = os.path.join(Metadata, file)
-            # metadataCleaning_txt (filename, cleanedMetadataFolder)
             metadataCleaning_winter_summer_txt(filename, cleanedMetadataFolder)
     
     elif os.path.isfile(Metadata) and Metadata.endswith('.txt'): # the input is a file
-        # metadataCleaning_txt (Metadata, cleanedMetadataFolder)
         print ('---------------------', Metadata)
         metadataCleaning_winter_summer_txt(Metadata, cleanedMetadataFolder)
 
