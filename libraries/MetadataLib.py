@@ -17,14 +17,12 @@ def _panoids_data(lat, lon):
     Gets the response of the script on Google's servers that returns the
     closest panoramas (ids) to a give GPS coordinate.
     """
-    # import urllib2
     import sys
 
     url = _panoids_url(lat, lon)
 
     # using different url reading method in python2 and python3
     if sys.version_info[0] == 2:
-        # from urllib2 import urlopen
         import urllib
         
         metaData = urllib.urlopen(url).read()
@@ -36,9 +34,6 @@ def _panoids_data(lat, lon):
         metaData = urllib.request.urlopen(request).read()
     
     
-    # metaDataxml = urllib2.urlopen(url)
-    # metaData = metaDataxml.read()
-##    return requests.get(url)
     return metaData.decode('utf-8')
     
     
@@ -161,7 +156,6 @@ def meta4coord(lon, lat):
     
     # using different url reading method in python2 and python3
     if sys.version_info[0] == 2:
-        # from urllib2 import urlopen
         import urllib
         
         metaData = urllib.urlopen(urlAddress).read()
@@ -215,7 +209,6 @@ def GSVpanoMetadataCollectorBatch_Yaw(samplesFeatureClass,num,ouputTextFolder):
         
     '''
     
-    import urllib,urllib2
     import xmltodict
     import ogr, osr
     import time
@@ -279,9 +272,16 @@ def GSVpanoMetadataCollectorBatch_Yaw(samplesFeatureClass,num,ouputTextFolder):
                 
                 # the output result of the meta data is a xml object
                 try: 
-                    metaDataxml = urllib2.urlopen(urlAddress)
-                    metaData = metaDataxml.read()    
-                    
+                    if sys.version_info[0] == 2:
+                        import urllib
+                        metaData = urllib.urlopen(urlAddress).read()
+        
+                    if sys.version_info[0] == 3:
+                        import urllib.request
+        
+                        request = urllib.request.Request(urlAddress)
+                        metaData = urllib.request.urlopen(request).read()
+        
                     data = xmltodict.parse(metaData)
                     
                     # in case there is not panorama in the site, therefore, continue
@@ -391,7 +391,6 @@ def GSVpanoMetadataCollectorBatch_Yaw_fiona(samplesFeatureClass,num,ouputTextFol
                 print('judge python version')
                 # using different url reading method in python2 and python3
                 if sys.version_info[0] == 2:
-                    # from urllib2 import urlopen
                     import urllib
                     
                     metaData = urllib.urlopen(urlAddress).read()
@@ -449,7 +448,6 @@ def GSVpanoMetadataCollector_Yaw_TimeMachine_shpfilebased(FeatureClass,outputFea
         outputFeatureClass: the output shapefile with the GSV metadata
     '''
     
-    import urllib,urllib2
     import xmltodict
     import ogr, osr
     import time
@@ -587,7 +585,6 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine(samplesFeatureClass,num,ouputT
         
     '''
     
-    import urllib,urllib2
     import xmltodict
     import ogr, osr
     import time
@@ -744,7 +741,6 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(samplesFeatureClass,num,ouput
 
                         # using different url reading method in python2 and python3
                         if sys.version_info[0] == 2:
-                            # from urllib2 import urlopen
                             has_year_key = res[j].has_key("year")
                             
                         if sys.version_info[0] == 3:

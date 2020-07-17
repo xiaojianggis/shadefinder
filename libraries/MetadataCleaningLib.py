@@ -222,7 +222,6 @@ def metadata_txt_add_tilts(in_metadata_filename, complete_cleanedMetadata):
     '''
 
     import os, os.path
-    # import urllib2
     import xmltodict
     import time
     import sys
@@ -269,7 +268,6 @@ def metadata_txt_add_tilts(in_metadata_filename, complete_cleanedMetadata):
 
                 # using different url reading method in python2 and python3
                 if sys.version_info[0] == 2:
-                    # from urllib2 import urlopen
                     import urllib
                     
                     metaData = urllib.urlopen(urlAddress).read()

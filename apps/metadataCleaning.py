@@ -307,7 +307,7 @@ def metadata_txt_add_tilts(in_metadata_filename, complete_cleanedMetadata):
     '''
 
     import os, os.path
-    import urllib2
+    import urllib
     import xmltodict
     import time
 
@@ -351,7 +351,7 @@ def metadata_txt_add_tilts(in_metadata_filename, complete_cleanedMetadata):
                 
                 
                 # the output result of the meta data is a xml object
-                metaDataxml = urllib2.urlopen(urlAddress)
+                metaDataxml = urllib.urlopen(urlAddress)
                 metaData = metaDataxml.read()
                 data = xmltodict.parse(metaData)
 

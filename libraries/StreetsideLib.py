@@ -112,7 +112,6 @@ def Streetside_downloader(lon, lat, outputdir):
     
     # Access the metadata, using different url reading method in python2 and python3
     if sys.version_info[0] == 2:
-        # from urllib2 import urlopen
         import urllib
         
         metaData = urllib.urlopen(meta_url).read()
