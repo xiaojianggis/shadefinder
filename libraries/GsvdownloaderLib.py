@@ -180,10 +180,7 @@ def GSVpanoramaDowloader_GoogleMaps(panoId, zoom):
             #     #sys.exit()
             #     return(None)
 #             print(urllib.request.urlopen(URL).read())
-            # imgfile = BytesIO(urllib.request.urlopen(URL).read())
 
-            # imgfile = cStringIO.StringIO(urllib.urlopen(URL).read())
-            
             # using different url reading method in python2 and python3
             if sys.version_info[0] == 2:
                 import cStringIO
@@ -248,7 +245,6 @@ def GSVpanoramaDowloaderFromText(gsvInfoText, greenMonthList, outGSVRoot, flag):
     """
     
     import urllib
-    # import cStringIO
     from PIL import Image
     import os, os.path
     import numpy as np

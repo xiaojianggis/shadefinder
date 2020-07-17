@@ -96,7 +96,6 @@ def Streetside_downloader(lon, lat, outputdir):
     from PIL import Image
     import time
     import sys
-    import cStringIO
     import re
     
     

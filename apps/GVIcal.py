@@ -242,7 +242,6 @@ def GreenViewComputing_ogr_6Horizon(GSVinfoFolder, outGSVRoot, outTXTRoot):
     """
 
     import urllib
-    import cStringIO
     import time
 
     # set a series of heading angle
@@ -389,7 +388,6 @@ def GreenViewComputing_6Horizon(panoID):
     """
     
     import urllib
-    import cStringIO
     import time
     import pymeanshift as pms
     from PIL import Image
@@ -441,7 +439,6 @@ def GreenViewComputing_6Horizon(panoID):
 import numpy as np
 import os,os.path
 from PIL import Image
-import cStringIO
 import pymeanshift as pms
 import urllib
 

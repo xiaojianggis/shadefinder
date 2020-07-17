@@ -217,7 +217,6 @@ def GSVpanoMetadataCollectorBatch_Yaw(samplesFeatureClass,num,ouputTextFolder):
     
     import urllib,urllib2
     import xmltodict
-    # import cStringIO
     import ogr, osr
     import time
     import os,os.path
@@ -452,7 +451,6 @@ def GSVpanoMetadataCollector_Yaw_TimeMachine_shpfilebased(FeatureClass,outputFea
     
     import urllib,urllib2
     import xmltodict
-    import cStringIO
     import ogr, osr
     import time
     import os,os.path
