@@ -50,15 +50,6 @@ def GSVpanoramaDowloader_GoogleMaps(panoId, zoom):
             # The URL is derived from Google Maps, check the source code of Google Maps
             URL = "https://geo0.ggpht.com/cbk?cb_client=maps_sv.tactile&authuser=0&hl=en&panoid=%s&output=tile&x=%s&y=%s&zoom=%s&nbt&fover=2"%(panoId,x,y,zoom)
             
-            # Open the GSV images are numpy arrayss
-            # try:
-            #    urllib.request.urlopen(URL)
-            # except urllib.request.HTTPError:
-            #     print("HTTPError")
-            #     #sys.exit()
-            #     return(None)
-#             print(urllib.request.urlopen(URL).read())
-
             # using different url reading method in python2 and python3
             if sys.version_info[0] == 2:
                 import cStringIO
@@ -95,9 +86,7 @@ def GSVpanoramaDowloader_GoogleMaps(panoId, zoom):
     cut_mergedImg[:,:,0] = mergedImg[:rowlim,:collim,0]
     cut_mergedImg[:,:,1] = mergedImg[:rowlim,:collim,1]
     cut_mergedImg[:,:,2] = mergedImg[:rowlim,:collim,2]
-#     print('The size of the GSV panorama is:'+(''.join(cut_mergedImg.shape)))
-    
-    # img = Image.fromarray(cut_mergedImg)
+
     return(cut_mergedImg)
 
 
@@ -253,12 +242,5 @@ if __name__=="__main__":
     GSVinfo = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Cleaned_Pnt_start0_end1000.txt'
     outGSVRoot = r'/Users/senseablecity/Dropbox (MIT)/Start-up/testpano'
     greenMonthList = ['05', '06', '07', '08', '09']
-    # GSVpanoramaDowloader(GSVinfo, greenMonthList, outGSVRoot)
-    
-    
-    ## ------ Dash + AI for Massachusetts Avenue-----------
-    GSVinfo = r'/Users/senseablecity/Dropbox (MIT)/Start-up/street-right/metadata/Cleaned_Pnt_start0_end321.txt'
-    outGSVRoot = r'/Users/senseablecity/Dropbox (MIT)/Start-up/street-right/visualization/GSV-Mass-avenue-zoom2'
-    greenMonthList = ['05', '06', '07', '08', '09', '10']
     GSVpanoramaDowloader(GSVinfo, greenMonthList, outGSVRoot)
     
