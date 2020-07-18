@@ -24,6 +24,8 @@ Applications:
 Summer in Tokyo is incredibly hot!
 The temperature can reach around 40℃ with high humidity. The hot summer environment significantly decreases people’s motivation to walk outdoors, resulting in reduced quality of life – they can’t fully enjoy what the city has to offer them. To address this problem, we created an app that looks for shaded paths in Tokyo’s Shibuya district. HIKAGE FINDER helps you explore the city in comfort by identifying the coolest paths, rather than the shortest ones. It avoids areas of direct sunlight, meaning you can walk more comfortably on those hot summer days. This is how HIKAGE FINDER can enhance your enjoyment of life in the city.
 
+[Project Site](https://urbansciences.jp/en/1112/)
+
 ## TECHNICAL DESCRIPTION
 
 1. Google Street Views along with the street network
@@ -61,4 +63,3 @@ Li, X., Yoshimura, Y., Tu, W., Ratti, C. (2020). A pedestrian level strategy to 
 
 This work is the collaboration: Urban Sciences Lab at The University of Tokyo and Xiaojiang Li at Temple University.
 
-[Project Site](https://urbansciences.jp/en/1112/)
