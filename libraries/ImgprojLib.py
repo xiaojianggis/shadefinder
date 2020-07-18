@@ -99,9 +99,6 @@ def cylinder2fisheyeImage_noyaw (inputImage,outputPano):
     del img
 
 
-
-
-##def cylinder2fisheyeImage (inputImage,outputPano, pano_yaw_deg):
 def cylinder2fisheyeImage (inputImage,outputPano, flag = 'gsv'):
     '''
         This program is used to convert cylindrical panorama images to original image
@@ -396,24 +393,15 @@ def cylinder2perspective2(panoImg, Hd, Wd, fov, pitch, heading):
             theta = math.atan((xD - 0.5*Wd)/focus) + heading
             phi = math.atan((yD - 0.5*Hd)/focus) - pitch
             
-#             if theta < -2*np.pi: theta = theta + 2*np.pi
-#             if theta > 2*np.pi: theta = theta - 2*np.pi
-#             if phi < -np.pi: phi = phi + np.pi
-#             if phi > np.pi: phi = phi - np.pi
-            
-    #         print('theta and phi are:', theta, phi)
-            
             # based on the polar coordinate, locate the corresponding pixel in the cylindrical pano
             xS = (theta + np.pi)/(2*np.pi)*Ws
             yS = (phi + 0.5*np.pi)/(np.pi)*Hs
 
             if xS >= Ws-1: xS = xS - Ws + 1
-    #         print('(xD, yD) and (xS, yS) are: ', xD, yD, xS, yS)
 
             xmap.itemset((yD,xD),xS)
             ymap.itemset((yD,xD),yS)
             
-    #     print ('the destination image size is %s,%s'%(Hd,Wd))
     outputImg = cv2.remap(panoImg,xmap,ymap,cv2.INTER_CUBIC)
     
     img = Image.fromarray(outputImg)
@@ -517,20 +505,14 @@ def SunTrajectoryOnFisheyeimage(rotatedFishImg,outputSunpathFolder,timeLst):
     month = fields[3][-2:]
     
     print ('The lon, lat, id, month are:', lon, lat, panoID, month)
-    
-##    lat = 42.365900
-##    lon = -71.085796
-##    month = '09'
-    
+ 
     
     # the output filename
     skyImgName = '%s_sky.jpg'%(basename)
     sunpathFisheyeName = '%s_sunpath.jpg'%(basename)
     outputSkyImgFile = os.path.join(outputSunpathFolder,skyImgName)
     outputSunpathImageFile = os.path.join(outputSunpathFolder,sunpathFisheyeName)
-    
-##    if os.path.exists(outputSunpathImageFile):
-##        return
+
     
     ## PLOT THE POSITION OF SUN ON THE FISHEYE IMAGE
     outputSunpathImage = np.array(Image.open(rotatedFishImg))
@@ -589,10 +571,6 @@ def SunTrajectoryOnFisheyeimage(rotatedFishImg,outputSunpathFolder,timeLst):
         
         # create the circle based on the boundaries of the circles
         
-##        outputSunpathImage[boundYl:boundYu,boundXl:boundXu,0] = 255
-##        outputSunpathImage[boundYl:boundYu,boundXl:boundXu,1] = 0
-##        outputSunpathImage[boundYl:boundYu,boundXl:boundXu,2] = 0
-    
     imgSunpath = Image.fromarray(outputSunpathImage)
     imgSunpath.save(outputSunpathImageFile)
     del outputSunpathImage, imgSunpath
@@ -662,19 +640,12 @@ if __name__ == "__main__":
 
 
     # ---------------Convert cylindrical pano to fisheye-------------
-    root = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/ChinaStreetView'
-    inPanoImg = os.path.join(root, 'Baidupano.jpeg')
-    outHemiImg = os.path.join(root, 'hemi.jpg')
-    print ('The inPanoImg is:', inPanoImg)
-    print ('The output file is:', outHemiImg)
-    # cylinder2fisheyeImage_noyaw (inPanoImg, root)
-
 
     #---------------- For Shibuya, Tokyo proj
     root = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/Routing2Shade/Figures and Table/seg-panos/output_segs'
     inPanoImg = os.path.join(root, '5672 - ekOhsCAsB-EyR2JHBFL4GA - 139.696491162 - 35.6571870555 - 2013-06 - 136.97720336.jpg')
     outroot = os.path.join(root, 'hemi-seg')
-    cylinder2fisheyeImage_noyaw (inPanoImg, outroot)
+    cylinder2fisheyeImage_noyaw(inPanoImg, outroot)
 
 
     # ----------------generate the perspective projection image ------------
@@ -687,11 +658,6 @@ if __name__ == "__main__":
     pitch = 0
     # cylinder2perspective (inPanoImg,outputPerspectiveImg,heading,fov, yaw, tilt_yaw, pitch)
 
-
-    # --------------CONVERT CLYINDERICAL IMAGES TO FISHEYE IMAGES --------
-    ##inPanoImg = r'D:\PhD Project\RouteFindingProj\PanoImges\panoImg.jpg'
-    ##outputFolder = r'D:\PhD Project\RouteFindingProj\FisheyeImgs'
-    ##cylinder2fisheyeImage (outputPanoImgFile,panoRoot, pano_yaw_deg)
 
     # ---------------CONVERT CYLINDERICAL IMAGES INTO PERSPECTIVE IMAGE WITH DIFFERENT PARAMETERS
     ##fov = 60
