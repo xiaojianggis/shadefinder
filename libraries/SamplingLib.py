@@ -321,47 +321,11 @@ if __name__ == "__main__":
     root = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/Treepedia/Treepedia-master - old/sample-spatialdata'
     inshp = os.path.join(root,'CambridgeStreet_wgs84.shp')
     outshp = os.path.join(root,'CambridgeStreet_wgs84_20m.shp')
-    
     mini_dist = 100 #the minimum distance between two generated points in meter
     
-    # createPoints(inshp, outshp, mini_dist) # create point features along streets
+    createPoints(inshp, outshp, mini_dist) # create point features along streets
 
     # inshp = os.path.join(root,'test.shp')
-    outshp = os.path.join(root,'CambridgeStreet_wgs84_segments.shp')
+    # outshp = os.path.join(root,'CambridgeStreet_wgs84_segments.shp')
     # createStreetSegment(inshp, outshp, mini_dist) # create street segment from streets 
-    
-    
-    ## SunGlare Viz, create sample sites along street in Main streets of Cambridge
-    root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/SunGlare/viz-mainstreet-cambridge'
-    streetmap = os.path.join(root, 'street-map.shp')
-    pntshp = os.path.join(root, 'pnt-map.shp')
-    
-    # createPoints(streetmap, pntshp, 5)
-    # metalib.GSVpanoMetadataCollectorBatch_Yaw(pntshp, 1000, root)
-    
-    
-    ## ----------- new sun glare map, denser coverage -----------------------
-    root = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/SunGlare/spatial-data'
-    streetmap = os.path.join(root, 'Centerline_4326.shp')
-    pntshp = os.path.join(root, 'Centerline_4326_20m.shp')
-    # createPoints(streetmap, pntshp, 20)
-    panofolder = os.path.join(root, 'metadata')
-    # metalib.GSVpanoMetadataCollectorBatch_Yaw(pntshp, 1000, panofolder)
-    
-    
-    ## Create pnts along Massachusetts Avenue for Dash+AI proj
-    inshp = r'/Users/senseablecity/Dropbox (MIT)/Start-up/street-right/spatial-data/mass-ave.shp'
-    outshp = r'/Users/senseablecity/Dropbox (MIT)/Start-up/street-right/spatial-data/mass-ave-pnt5m.shp'
-    # createPoints(inshp, outshp, 5)
-    
-    ## Create sample sites along streets in Shibuya
-    inshp = r'/Users/senseablecity/Dropbox (MIT)/Xiaojiang Li/TokyoProj/TokyoShp/shibuya_street.shp'
-    outshp = r'/Users/senseablecity/Dropbox (MIT)/Xiaojiang Li/TokyoProj/TokyoShp/shibuya_site10m.shp'
-    # createPoints(inshp, outshp, 10)
-
-    ## Create sample site along streets in Paris
-    inshp = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/Street-life/OSMNX/OSMNX/selected_route_double_proj4326.shp'
-    outshp = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/Street-life/OSMNX/OSMNX/selected_route_pnt_proj4326.shp'
-    
-    createPoints(inshp, outshp, 20)
 
