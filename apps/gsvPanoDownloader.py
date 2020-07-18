@@ -27,8 +27,7 @@ panoId = 'fxN9hr7KnuKBFrUSw5GB-w'
 
 root = '/Users/senseablecity/Dropbox (MIT)/Start-up/Exposure Model/source-code/skyview/pano-lab/Sidewalk'
 outputName = os.path.join(root, panoId + '.jpg')
-fisheOutput = os.path.join(root, panoId + 'fish.jpg')
-
 print ('The output panorama is:', outputName)
+
 # download the GSV panorama
 cylinderPanoImg = sunexpo.GSVpanoramaDowloader_GoogleMaps(panoId, outputName)
