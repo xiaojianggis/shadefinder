@@ -13,43 +13,9 @@ import GsvdownloaderLib as downlib
 import MetadataCleaningLib as metaclean
 
 
-root = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/Urban Sensing and Computing/Yuji - Image of cities/Lynch_cities/jersey_city/'
 mini_dist = 100
-
 cityname = 'NYC'
-cityname = 'LA'
-#cityname = 'Dallas'
-cityname = 'Houston'
-#cityname = 'Philadephia'
-cityname = 'Atlanta'
-cityname = 'Memphis'
-cityname = 'DC'
-
 greenMonthList = ['04','05','06', '07', '08', '09', '10', '11'] 
-
-# For NewJersey City
-shpfile = os.path.join(root, r'Jersey_city/clean_Jersey_city_wgs84.shp')
-pntshpfile = os.path.join(root, r'Jersey_city/Jersey_city_wgs84_%sm.shp')%mini_dist
-
-
-# For LA
-root = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/Urban Sensing and Computing/Yuji - Image of cities/Lynch_cities/Los_Angels'
-inshp = os.path.join(root, 'Los_Angeles/LosAngeles_data_1_wgs84.shp')
-outshp = os.path.join(root, 'Los_Angeles/LosAngeles_data_1_wgs84_100m.shp')
-
-# For Paris
-root = '/Users/senseablecity/Dropbox (MIT)/ResearchProj/Street-life/OSMNX/OSMNX'
-inshp = os.path.join(root, 'selected_route_double_proj4326.shp')
-outshp = os.path.join(root, 'selected_route_pnt_proj4326_20m.shp')
-mini_dist = 20
-
-# For Dallas
-root = '/home/jiang/Documents/researchProj/thermal-injustice/datasets/Dallas'
-outshp = os.path.join(root, 'spatial-data/Dallas100m.shp')
-
-# for Charlotte
-root = r'/home/xiaojiang/researchProj/datasets/gsv-data/Charlotte'
-outshp = os.path.join(root, 'spatial-data/Charlotte100m.shp')
 
 
 # For NYC
@@ -58,26 +24,22 @@ outfilename = 'spatial-data/%s100m.shp'%(cityname)
 outshp = os.path.join(root, outfilename)
 
 
-
-##### Step 1. -------Sampling part -----------------------
-# spl.createPoints(inshp, outshp, mini_dist)
-
+## Step 1. -------Sampling part -----------------------
+spl.createPoints(inshp, outshp, mini_dist)
 
 
-root = r'/mnt/deeplearnurbandiag/dataset/%s'%(cityname)
-
-# ## Step 2. ---------Get the historical GSV metadat ---------------------
+## Step 2. ---------Get the historical GSV metadata ---------------------
 MetadatTxt = os.path.join(root, 'metadata')
 if not os.path.exists(MetadatTxt):
     os.mkdir(MetadatTxt)
 
 
 monthlist = ['11', '12', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
-# metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, 1000, MetadatTxt)
-# print('Collecting metadata')
+metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, 1000, MetadatTxt)
+print('Collecting metadata')
 
 # for multi-temporal metadata, use
-# metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(outshp, 1000, MetadatTxt)
+metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(outshp, 1000, MetadatTxt)
 
 
 
@@ -144,6 +106,6 @@ for metatxt in os.listdir(cleanedMeta):
     print('The metadata is:', metatxt)
     metatxtfile = os.path.join(cleanedMeta, metatxt)
     monthlist = ['11', '12', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
-    #downlib.GSVpanoramaDowloader(metatxtfile, monthlist, gsvimgs, 1) # the last para is used to mark historical () or non historical gsv meta
+    downlib.GSVpanoramaDowloader(metatxtfile, monthlist, gsvimgs, 1) # the last para is used to mark historical () or non historical gsv meta
 
 
