@@ -29,11 +29,13 @@ The temperature can reach around 40â„ƒ with high humidity. The hot summer enviro
 ## TECHNICAL DESCRIPTION
 
 1. Google Street Views along with the street network
+
 We collected Google Street View images and obtained a street network from Open Street Map. We set a collecting point every 10 meters along the street network, covering the Shibuya district. The collected Google Street View panoramas resulted in 45,085 photos.
 
 ![step1](images/step1.jpg)
 
 2. Geometrical transformation from GSV to Hemispherical image
+
 We used PSPNet, an image segmentation algorithm, to segment GSV panoramas into sky pixels and obstruction pixels. This allowed us to calculate the dimension of the area exposed to sunlight. The segmented GSV panoramas were then transformed into a hemispherical image.
 
 ![step2](images/step2.png)
@@ -47,8 +49,11 @@ The above figure shows a geometrical model of the sun and an overlay of the sunâ
 4. Results: the spatial distributions of street-level sunlight exposure
 
 ![step4](images/step4.jpg)
+
 The above image shows the results of the shortest path and the minimum sunlight exposure path. Through the random selection process, our result indicates that HIKAGE route decreases 35.23% of the potential sunlight exposure when it takes the shortest path.
+
 ![step4](images/step4-2.png)
+
 HIKAGE FINDER enables us to explore the most suitable routes, considering the volumes of solar radiation.
 
 
