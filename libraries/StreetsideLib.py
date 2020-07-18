@@ -265,29 +265,6 @@ if __name__ == '__main__':
     from PIL import Image
 
 
-    root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Exposure Model/source-code/skyview/code/cube2sphere'
-    root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Exposure Model/source-code/skyview/code/cube2sphere'
-
-    # # prepare the six cube images
-    # # print(glob.glob(root, 'left*'))
-    # leftImgfile = glob.glob('left*')[0]
-    # rightImgfile = glob.glob('right*')[0]
-    # upImgfile = glob.glob('up*')[0]
-    # downImgfile = glob.glob('down*')[0]
-    # frontImgfile = glob.glob('front*')[0]
-    # backImgfile = glob.glob('back*')[0]
-
-    # leftImg = np.array(Image.open(leftImgfile))
-    # rightImg = np.array(Image.open(rightImgfile))
-    # upImg = np.array(Image.open(upImgfile))
-    # downImg = np.array(Image.open(downImgfile))
-    # frontImg = np.array(Image.open(frontImgfile))
-    # backImg = np.array(Image.open(backImgfile))
-    
-    # mosaicImg = cubeImageMasaic(leftImg, rightImg, upImg, downImg, frontImg, backImg)
-    # convert_img(mosaicImg, 'output.png')
-    
-
     # For NYC create static image from panos
     root = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/Treepedia/NYC-MillionsTree/'
     panos = os.path.join(root,'sample-GSV-panos')
