@@ -2,6 +2,15 @@ import math
 from PIL import Image
 
 
+# Assign identifiers to the faces of the cube
+FACE_Z_POS = 1  # Left
+FACE_Z_NEG = 2  # Right
+FACE_Y_POS = 3  # Top
+FACE_Y_NEG = 4  # Bottom
+FACE_X_NEG = 5  # Front
+FACE_X_POS = 6  # Back
+
+
 def spherical_coordinates(i, j, w, h):
     """ Returns spherical coordinates of the pixel from the output image. 
     """
@@ -18,13 +27,6 @@ def vector_coordinates(phi, theta):
             math.cos(phi) * math.sin(theta))  # Z
 
 
-# Assign identifiers to the faces of the cube
-FACE_Z_POS = 1  # Left
-FACE_Z_NEG = 2  # Right
-FACE_Y_POS = 3  # Top
-FACE_Y_NEG = 4  # Bottom
-FACE_X_NEG = 5  # Front
-FACE_X_POS = 6  # Back
 
 
 def get_face(x, y, z):
