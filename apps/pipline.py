@@ -38,7 +38,7 @@ metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, 1000, MetadatTxt)
 print('Collecting metadata')
 
 # for multi-temporal metadata, use
-metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(outshp, 1000, MetadatTxt)
+# metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(outshp, 1000, MetadatTxt)
 
 
 
@@ -92,7 +92,6 @@ print('created the file', outputShapefile)
 
 
 ## STEP 5: ---------- Dowload the GSV panoramas-----------
-root = r'/mnt/deeplearnurbandiag/dataset/%s'%(cityname)
 gsvimgs = os.path.join(root, 'gsv-panos')
 
 if not os.path.exists(gsvimgs):
