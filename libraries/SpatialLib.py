@@ -128,16 +128,6 @@ def SplitStreets2Segments(streetMap, segStreetMap, distance):
                     
 
 
-# This function is used to aggregate the point level feature to linear feature
-def AggregatePnt2Linear(pntShp, streetShp, resultLinearShp):
-    '''
-    Copyright(c) Xiaojiang Li, MIT Senseable City Lab
-    This code is used to aggregate the point level feature to linear feature, just
-    like the sun glare project, we can aggregate the point level data to the linear
-    level, so, we can visualize the result at the street level, which would look better
-
-    last modified Nov 30, 2018
-    '''
 
 
 def AggregatePnt2Polygon(pntshp, polygonshp, outPolygonShp):
@@ -316,121 +306,6 @@ def Intersect_pnt_street_fiona(pntShp, streetShp, outputfolder):
                             elem = shape(featPnt['geometry'])
                             output.write({'geometry': mapping(shape(featPnt['geometry'])),'properties':{'id':1}})
 
-
-
-
-
-def Intersect_pnt_polygon_gdal(pntShp, stateShp, outputfolder):
-    '''
-    
-    ??????
-    Not done yet!!
-
-
-    This function uses the gdal method to intersect the point feature and polygon feature
-    the result of the function is the aggregated point feature based on the polygon, in this
-    case is the points in each state
-
-    parameters: 
-        pntShp: the input point feature
-        stateShp: the input polygon feature
-        outputfolder: the ouputfolder of the result shapefiles
-    
-    Copyright(C) Xiaojiang Li, MIT Senseable City Lab
-
-    First version April 30, 2018
-    '''
-    
-    
-    # read the feature first and building list to save the data
-    driverState = ogr.GetDriverByName("ESRI Shapefile")
-    datasourceState = driverState.Open(stateShp,0)
-    layerState = datasourceState.GetLayer()
-
-    # open the driver pnt
-    driverPnt = ogr.GetDriverByName("ESRI Shapefile")
-    datasourcePnt = driverPnt.Open(pntShp, 0)
-    layerPnt = datasourcePnt.GetLayer()
-    
-    # create rtree index on the point feature
-    index = rtree.index.Index(interleaved=False)
-    
-    for pntid in range(0,layerPnt.GetFeatureCount()):
-        featurePnt = layerPnt.GetFeature(pntid)
-        geoPnt = featurePnt.GetGeometryRef()
-        geometry = shape(featurePnt['geometry'])
-        
-        geometry_buffered = geometry.buffer(2) # add a buffer in order to create a r-tree
-        index.insert(fid, geometry_buffered.bounds)
-        
-    
-    # loop the polygon features
-    for polyid in range(0,layerState.GetFeatureCount()):
-        featurePoly = layerState.GetFeature(polyid)
-        name = featurePoly.GetField('STUSPS')
-
-        # write to a shapefile for each state polygon
-        outputShp = os.path.join(outputfolder, stateName + '_pnt.shp')
-        print ('The outputshp file is:', outputShp)
-        
-        fids = [int(i) for i in index.intersection(geomPoly.bounds)]
-
-        # loop all features in the bounding box and then judge if they are intersected
-        for fid in fids:
-            featPnt = pnt_lyr[fid]
-            geomPnt = shape(featPnt['geometry'])
-
-            # if the point is intersected with the polygon, then save the point feature into the output shapefile
-            if geomPoly.intersects(geomPnt):                            
-                elem = shape(featPnt['geometry'])
- 
-
-
-
-def fionaMethodR_tree(pntShp, stateShp):
-    '''
-    This function is used to intersect the point feature with the polygon feature
-    based on the R-tree index
-
-    parameters:
-        pntShp: the input point shapefile
-        stateShp: the input polygon Shapefile
-
-    First version April 30, 2018
-    Copyright(c) Xiaojiang Li, MIT Senseable City Lab
-    
-    '''
-    
-    with fiona.open(pntShp, 'r') as pnt_lyr:
-        with fiona.open(stateShp, 'w') as state_lyr:
-            
-            # create an empty spatial index object
-            index = rtree.index.Index()
-            
-            # populate the spatial index, the polygon features
-            for fid, feature in state_lyr.items():
-                geometry = shape(feature['geometry'])
-                geotype = feature['geometry']['type']
-                print ('the geotype is:', geotype)
-                
-                index.insert(fid, geometry.bounds)
-                
-            # loop all point feature for the calculation
-            for feature in pnt_lyr:
-                geometry = shape(feature['geometry'])
-                
-                # get the list of fids where point intersects the polygon
-                fids = [int(i) for i in index.intersection(geometry.bounds)]
-                print (fids)
-                
-                # access the features that those fids reference
-                for fid in fids:
-                    feature_state = state_lyr[fid]
-                    geometry_state = shape(feature_state['geometry'])
-                    
-                    if geometry.intersects(geometry_state):
-                        print ('Found and intersection', feature_state['properties']['STUSPS'])
-                        
 
 
 
