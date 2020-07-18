@@ -67,7 +67,6 @@ fisheOutput = os.path.join(root, panoId + 'fish.jpg')
 print ('The output panorama is:', outputName)
 # download the GSV panorama
 cylinderPanoImg = sunexpo.GSVpanoramaDowloader_GoogleMaps(panoId, outputName)
-# cylinderPanoImg = pano.GSVpanoramaDowloader_GoogleMaps_indoor(panoId, outputName)
 
 # fisheyeImg = sunexpo.cylinder2fisheyeImage(cylinderPanoImg, 180, fisheOutput)
 # skyImg = imgseg.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg)
