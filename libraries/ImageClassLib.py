@@ -68,45 +68,6 @@ def graythresh(array,level):
     return threshold
     
 
-    
-
-def SkyExtractionFromFisheyeImg_vote(inputPano,outputSkyres):
-    
-    '''
-    This program is used to extract the sky pixels from the fisheye images
-    This function use pixel level threshold to derive the sky then aggregate to object level
-    
-    Parameters: 
-        inputPano: folder of image of fisheye panorama
-        outputSkyres: classification result of fisheye pano image
-    '''
-    
-    import os,os.path
-    
-    # if the input is folder then list GSV images
-    if os.path.isdir(inputPano):
-        # the output is also a folder, create the output folder if there is
-        
-        if not os.path.exists(outputSkyres):
-            os.makedirs(outputSkyres)
-        
-        fileLst = os.listdir(inputPano)
-        for file in fileLst:
-            panoImgFile = os.path.join(inputPano,file)
-            
-            # judge if the imput image is a jpg image or not
-            extention = os.path.splitext(panoImgFile)[1]
-            
-            if extention == '.jpg':
-                #OBIA_Skyclassification_vote(panoImgFile,outputSkyres)
-                OBIA_Skyclassification_vote2Modifed(panoImgFile,outputSkyres)
-    else:
-        panoImgFile = inputPano
-        #OBIA_Skyclassification_vote(panoImgFile,outputSkyres)
-        OBIA_Skyclassification_vote2Modifed(panoImgFile,outputSkyres)
-
-
-
 def OBIA_Skyclassification_vote2Modifed_2(panoImage,classImgFile='skyRes.tif'):
     '''
     Modfied based on "OBIA_Skyclassification_vote2Modifed"
@@ -227,10 +188,6 @@ def OBIA_Skyclassification_vote2Modifed_2(panoImage,classImgFile='skyRes.tif'):
             skyImg[rows,cols] = 1
     
     del labels_image, sumImg,ExB
-    
-    outImg = Image.fromarray(skyImg.astype(np.float32))
-    # outImg.save(classImgFile)
-    del outImg
     
     return skyImg
 
