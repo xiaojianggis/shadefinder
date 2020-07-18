@@ -13,12 +13,11 @@ import GsvdownloaderLib as downlib
 import MetadataCleaningLib as metaclean
 
 
+# For NYC
 mini_dist = 100
 cityname = 'NYC'
 greenMonthList = ['04','05','06', '07', '08', '09', '10', '11'] 
 
-
-# For NYC
 root = r'/home/xiaojiang/researchProj/datasets/gsv-data/%s'%(cityname)
 outfilename = 'spatial-data/%s100m.shp'%(cityname)
 outshp = os.path.join(root, outfilename)
