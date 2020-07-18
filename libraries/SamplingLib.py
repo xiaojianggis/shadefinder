@@ -139,42 +139,6 @@ def createPoints(inshp, outshp, mini_dist):
 
 
 
-
-def cutLine_1_pnt_backup(line, distance):
-    '''
-    This function is used to cut the line based on the distance, this function
-    will only cut the original line into two parts based on the distance
-    
-    May 3, 2018
-    https://toblerity.org/shapely/manual.html
-    
-    Copyright(C) Xiaojiang Li, MIT Senseable City Lab
-    '''
-    
-    from shapely.geometry import Point,LineString
-
-    # Cuts a line in two at a distance from its starting point
-    if distance <= 0.0 or distance >= line.length:
-        return [LineString(line)]
-    
-    coords = list(line.coords)
-
-    for i, p in enumerate(coords):
-        pd = line.project(Point(p))
-
-        if pd == distance:
-            print ('The pd is:---------', pd)
-            
-            return [LineString(coords[:i+1]),
-                    LineString(coords[i:])]
-
-        if pd > distance:
-            cp = line.interpolate(distance)
-            return [LineString(coords[:i] + [(cp.x, cp.y)]),
-                    LineString([(cp.x, cp.y)] + coords[i:])]
-
-
-
 def cutLine_1_pnt(line, distance):
     '''
     This function is used to cut the line based on the distance, this function
@@ -207,64 +171,6 @@ def cutLine_1_pnt(line, distance):
             cp = line.interpolate(distance)
             return [LineString(coords[:i] + [(cp.x, cp.y)]),
                     LineString([(cp.x, cp.y)] + coords[i:])]
-
-
-
-def cutLine_series_pnt2(line, distance):
-    '''
-    This function is used to cut the line based on the distance
-    Different from the previous function, this function will cut
-    the line into many street segments based on the minimum distance
-    
-    May 4, 2018
-    https://toblerity.org/shapely/manual.html
-    
-    Copyright(C) Xiaojiang Li, MIT Senseable City Lab
-    '''
-
-    from shapely.geometry import Point,LineString
-
-    # Cuts a line in two at a distance from its starting point
-    if distance <= 0.0 or distance >= line.length:
-        return [LineString(line)]
-    
-    # create a series points along the streets
-    coords = list(line.coords)
-    print ('The coords are:', coords)
-
-    # loop all vertices of the line and create line segments
-    for i, p in enumerate(coords):
-        pd = line.project(Point(p))
-        print ('The pd is:', pd)
-        print ('The i is:', i)
-
-        if pd == distance:
-            print ('=================')
-            return [LineString(coords[:i+1]),
-                    LineString(coords[i:])]
-        
-        if pd > distance:
-            print ('--------------------')
-            segLineList = [] # the list the line segments
-            interPntLst = [] # create a point list to save the vertices of the line segment
-            
-            # loop the line and create point along line using interpolate
-            for dist in range(0,int(line.length), distance):
-                cp = line.interpolate(dist) # create the point with dist
-                interPntLst.append((cp.x, cp.y))
-
-            # add end point to the interPntLst
-            interPntLst.append(coords[-1])
-
-            # rebuild the LineStrings based on these vertices
-            for i in range(len(interPntLst) - 1):
-                pnt1 = interPntLst[i]
-                pnt2 = interPntLst[i + 1]
-
-                # add the linked segment to the line list
-                segLineList.append(LineString([pnt1, pnt2]))
-            
-            return segLineList
 
 
 
