@@ -498,7 +498,7 @@ if __name__ == "__main__":
     metadataGSV = os.path.join(root, 'Cleaned_Metadata_Florida_Allroads')
     outputShp = os.path.join(root, 'GSVpanoSite.shp')
     # gsvInfoLst = metalib.Read_GSVinfo_Text_File2Folder(metadataGSV)
-    # metalib.CreatePointFeature_ogr(outputShp, gsvInfoLst)
+    # CreatePointFeature_ogr(outputShp, gsvInfoLst)
 
 
     # the traffic accident map
