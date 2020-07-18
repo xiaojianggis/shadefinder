@@ -21,44 +21,38 @@ Applications:
 
 
 ## HIKAGE FINDER
-The summer in Tokyo is very hot! The temperature is going up around 40 degree with the high humidity. The hot summer environment significantly decreases people’s motivation to walk in the streets, resulting in reducing their quality of life. For this problem, we created the app to look for the shadow path in Shibuya district, Tokyo. HIKAGE FINDER helps you to explore the low temperature path instead of the shortest path in the city. It avoids to be directly shined, consequently, you can walk more comfortable in the hot summer day. In this way, HIKAGE FINDER can enhance people’s quantify of life in the city.
+Summer in Tokyo is incredibly hot!
+The temperature can reach around 40℃ with high humidity. The hot summer environment significantly decreases people’s motivation to walk outdoors, resulting in reduced quality of life – they can’t fully enjoy what the city has to offer them. To address this problem, we created an app that looks for shaded paths in Tokyo’s Shibuya district. HIKAGE FINDER helps you explore the city in comfort by identifying the coolest paths, rather than the shortest ones. It avoids areas of direct sunlight, meaning you can walk more comfortably on those hot summer days. This is how HIKAGE FINDER can enhance your enjoyment of life in the city.
 
 ## TECHNICAL DESCRIPTION
 
 1. Google Street Views along with the street network
-We collected the google street view images along with the street network obtained from Open Street Map. We set the collecting point as each 20 meter along with the street network. This results in 30,000 points over Shibuya district and the number of collected Google street view panorama is 30,000 photos.
+We collected Google Street View images and obtained a street network from Open Street Map. We set a collecting point every 10 meters along the street network, covering the Shibuya district. The collected Google Street View panoramas resulted in 45,085 photos.
 
-![step1](images/step1.png)
+![step1](images/step1.jpg)
 
 2. Geometrical transformation from GSV to Hemispherical image
-We used PSPNet, which is the image segmentation algorithm, for segmenting GSV panoramas into sky pixels and obstruction pixels. This allows us to calculate the area dimension, which the sunlight can be poured down. Then, the segmented GSV panoramas are transformed into the hemispherical image.
+We used PSPNet, an image segmentation algorithm, to segment GSV panoramas into sky pixels and obstruction pixels. This allowed us to calculate the dimension of the area exposed to sunlight. The segmented GSV panoramas were then transformed into a hemispherical image.
 
 ![step2](images/step2.png)
 
 3. Human exposure to sunlight in street canyon
-The above figure shows the geometrical model of the sun and the overlay of sun path in one day on hemispherical images. This model enables us to estimate the volume of the sunlight and sun light’s locations depending on the time and day of the year.
 
-![step3](images/step3.png)
+![step3](images/step3.jpg)
+
+The above figure shows a geometrical model of the sun and an overlay of the sun’s path in one day on hemispherical images. This model enables us to estimate the volume and location of sunlight depending on the time and day of the year.
 
 4. Results: the spatial distributions of street-level sunlight exposure
 
-![step4](images/step4.png)
+![step4](images/step4.jpg)
 The above image shows the results of the shortest path and the minimum sunlight exposure path. Through the random selection process, our result indicates that HIKAGE route decreases 35.23% of the potential sunlight exposure when it takes the shortest path.
 ![step4](images/step4-2.png)
+HIKAGE FINDER enables us to explore the most suitable routes, considering the volumes of solar radiation.
+
 
 ## OPEN STRATEGY
 
 We publish all codes in Github to make your own HIKAGE FINDER for your city. This enables you to collect the relevant datasets and create the algorithm for setting up the app.
-
-## DESIGN STRATEGY
-
-The logo of HIKAGE FINDER is designed by Minako Izumi.
-
-![hikagefinder_logo1](images/hikagefinder_logo1.png)
-![hikagefinder_logo2](images/hikagefinder_logo2.png)
-![hikagefinder_logo3](images/hikagefinder_logo3.png)
-![hikagefinder_logo4](images/hikagefinder_logo4.png)
-![hikagefinder_logo5](images/hikagefinder_logo5.png)
 
 
 ## PUBLICATION
@@ -66,3 +60,5 @@ The logo of HIKAGE FINDER is designed by Minako Izumi.
 Li, X., Yoshimura, Y., Tu, W., Ratti, C. (2020). A pedestrian level strategy to minimize outdoor sunlight exposure in hot summer, arXiv.
 
 This work is the collaboration: Urban Sciences Lab at The University of Tokyo and Xiaojiang Li at Temple University.
+
+[Project Site](https://urbansciences.jp/en/1112/)
