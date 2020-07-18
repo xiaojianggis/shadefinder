@@ -55,10 +55,7 @@ def panoids(lat, lon, closest=False, disp=False):
     # successive ones ought to be in reverse order from bottom to top. The final
     # images don't seem to correspond to a particular year. So if there is one
     # image per year I expect them to be orded like:
-    
-    # print(resp)
 
-##    pans = re.findall('\[[0-9],"(.+?)"\].+?\[\[null,null,(-?[0-9]+.[0-9]+),(-?[0-9]+.[0-9]+).\].+?\[(-?[0-9]+.[0-9]+).\].+?\[(-?[0-9]+\.?[0-9]+)', resp.text)    
     pans = re.findall('\[[0-9],"(.+?)"\].+?\[\[null,null,(-?[0-9]+.[0-9]+),(-?[0-9]+.[0-9]+).\].+?\[(-?[0-9]+.[0-9]+).\].+?\[(-?[0-9]+\.?[0-9]+)', resp)
     
     pans = [{
@@ -78,7 +75,6 @@ def panoids(lat, lon, closest=False, disp=False):
     # them. However, the last date (which corresponds to the first/main panorama
     # doesn't have an index before it. The following regex just picks out all
     # values that looks like dates and the preceeding index.
-##    dates = re.findall('([0-9]?[0-9]?[0-9])?,?\[(20[0-9][0-9]),([0-9]+)\]', resp.text)
     dates = re.findall('([0-9]?[0-9]?[0-9])?,?\[(20[0-9][0-9]),([0-9]+)\]', resp)
 
     dates = [list(d) for d in dates]
@@ -313,16 +309,6 @@ def GSVpanoMetadataCollectorBatch_Yaw(samplesFeatureClass,num,ouputTextFolder):
         panoInfoText.close()
 
 
-        # # ------------Main Function -------------------    
-        # import os,os.path
-
-        # root = '/Users/senseablecity/Dropbox (MIT)/ResearchProj/Treepedia/VancoverProj-UBC/SpatialData'
-        # inputShp = os.path.join(root,'VancouverMetro100mOutskirt.shp')
-        # outputTxt = os.path.join(root, 'metadata')
-
-        # GSVpanoMetadataCollectorBatch_Yaw(inputShp,1000,outputTxt) 
-
-
 # Fiona based method, not use gdal
 def GSVpanoMetadataCollectorBatch_Yaw_fiona(samplesFeatureClass,num,ouputTextFolder):
     '''
@@ -427,9 +413,6 @@ def GSVpanoMetadataCollectorBatch_Yaw_fiona(samplesFeatureClass,num,ouputTextFol
                     lineTxt = 'panoID: %s panoDate: %s longitude: %s latitude: %s pano_yaw_degree: %s tilt_yaw_deg: %s tilt_pitch_deg: %s\n'%(panoId, panoDate, panoLon, panoLat, pano_yaw_degree, tilt_yaw_deg, tilt_pitch_deg)
                     panoInfoText.write(lineTxt)
                         
-                # except:
-                #     print('You run error')
-                #     continue
                     
         panoInfoText.close()
 
@@ -905,17 +888,6 @@ def metadataCleaning (MetadataTxt, cleanedMetadataFolder):
 
 
 
-# # Main function, example
-# import os,os.path
-
-# root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Exposure Model/source-code/skyview/pano-lab/sunglare-pano'
-# MetadatTxt = os.path.join(root,'Pnt_start0_end1000.txt')
-# MetadatTxt = os.path.join(root,'Pnt_start1000_end2000.txt')
-# cleanedMetadatTxt = os.path.join(root, 'cleanedMetadata')
-# metadataCleaning (MetadatTxt, cleanedMetadatTxt)
-
-
-
 def metadataCleaning_winter_summer_txt (MetadataTxt, cleanedMetadataFolder):
     '''
     This script is used to clean the metadata collected from historyMetadata code
@@ -1135,17 +1107,6 @@ def Seasonal_GSVmetadata_extraction (MetadataTxt, monthlist, cleanedMetadataFold
                 panoInfoText.write(lineTxt)
 
     panoInfoText.close()
-
-
-# # Main function, example
-# import os,os.path
-
-# root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Exposure Model/source-code/skyview/pano-lab/sunglare-pano'
-# MetadatTxt = os.path.join(root,'Pnt_start0_end1000.txt')
-# MetadatTxt = os.path.join(root,'Pnt_start1000_end2000.txt')
-# cleanedMetadatTxt = os.path.join(root, 'cleanedMetadata')
-# monthlist = ['11', '12', '01', '02', '03', '04']
-# Seasonal_GSVmetadata_extraction (MetadatTxt, monthlist, cleanedMetadatTxt)
 
 
 
