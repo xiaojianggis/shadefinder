@@ -1222,73 +1222,17 @@ if __name__ == "__main__":
     from datetime import datetime
     import requests
     import time
-    import shutil
     import itertools
     from PIL import Image
     from io import BytesIO
     import os
 
-
-    ##root = r'/Users/xiaojiang/Documents/GSVproj/TreepediaMac/CambridgeProj'
-    ##samplesFeatureClass = os.path.join(root,'SpatialData/CambridgePnt20m.shp')
-    ##ouputTextFolder = os.path.join(root,'CambridgeMetadata20mHistorical')
-    ##num = 1000
-    ##GSVpanoMetadataCollectorBatch_Yaw_TimeMachine(samplesFeatureClass,num,ouputTextFolder)
-    
-    
-    root = r'/Users/xiaojiang/Documents/GSVproj/TreepediaMac/CambridgeProj'
-    metadata = os.path.join(root,'history-metadata')
-    outputShapefile = os.path.join(root,'spatial-data/CambridgeGSV_Pnt20m.shp')
-
-    root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Exposure Model/source-code/skyview/pano-lab/sunglare-pano'
-    metadata = os.path.join(root, 'cleanedMetadata_winter')
-    # gsvInfoLst = Read_GSVinfo_Text_File2Folder(metadata)
-
-    # The winter Google Street View panoramas
-    outputShapefile = os.path.join(root,'map-sunglare/CambridgeGSV_Winter.shp')
-    # CreatePointFeature_ogr(outputShapefile,gsvInfoLst)
-    
-    
-    # the copy of streetlight shapefile
-    # root = r'E:\ResearchProj\SunGlare\Spatial-data'
-    # pntShp = os.path.join(root,'Cambridge40m.shp')
-    # ouputTextFolder = os.path.join(root,'CambridgeMetadata40mHistorical')
-    # num = 1000
-    # GSVpanoMetadataCollectorBatch_Yaw_TimeMachine(samplesFeatureClass,num,ouputTextFolder)
-    
-    
-    # # Main function, example
-    # import os,os.path
-    
-    # root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Exposure Model/source-code/skyview/pano-lab/sunglare-pano'
-    # MetadatTxt = os.path.join(root,'Pnt_start0_end1000.txt')
-    # # MetadatTxt = os.path.join(root,'Pnt_start1000_end2000.txt')
-    # cleanedMetadatTxt = os.path.join(root, 'cleanedMetadata_winter')
-    # monthlist = ['11', '12', '01', '02', '03', '04']
-    # # monthlist = ['05', '06', '07', '08', '09', '10']
-    # Seasonal_GSVmetadata_extraction (MetadatTxt, monthlist, cleanedMetadatTxt)
-    
-    
     ## --------- Create metadata for Dash + AI from street-level images -----------
-    pntShp = r'/Users/senseablecity/Dropbox (MIT)/Start-up/street-right/spatial-data/mass-ave-pnt5m.shp'
-    monthlist = ['11', '12', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
-    MetadatTxt = r'/Users/senseablecity/Dropbox (MIT)/Start-up/street-right/metadata'
-    # GSVpanoMetadataCollectorBatch_Yaw_TimeMachine(pntShp, 1000, MetadatTxt)
-    
     
     ## Create metadata for Tokyo shibuya project
     sampleshp = r'/Users/senseablecity/Dropbox (MIT)/Xiaojiang Li/TokyoProj/TokyoShp/shibuya_site10m.shp'
     monthlist = ['11', '12', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
-    # MetadatTxt = r'/home/xiaojiang/shibuya-proj/gsv-images/metadata'
     MetadatTxt = r'/Users/senseablecity/Dropbox (MIT)/Xiaojiang Li/TokyoProj/metadata'
-    # GSVpanoMetadataCollectorBatch_Yaw_TimeMachine(sampleshp, 1000, MetadatTxt)
-    # GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(sampleshp, 1000, MetadatTxt)
-    
-    
-    ## Create metadata for Tokyo shibuya project
-    sampleshp = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/Environmental Injustice/Thermal comfort injustice/datasets/Boston/spatial-data/Boston100m.shp'
-    monthlist = ['11', '12', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
-    # MetadatTxt = r'/home/xiaojiang/shibuya-proj/gsv-images/metadata'
-    MetadatTxt = r'/Users/senseablecity/Dropbox (MIT)/Programing/nodejs/map-node/pg_mapper/metadata'
-    # GSVpanoMetadataCollectorBatch_Yaw_TimeMachine(sampleshp, 1000, MetadatTxt)
-    GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(sampleshp, 1000, MetadatTxt)
+    num = 1000
+    # GSVpanoMetadataCollectorBatch_Yaw_TimeMachine(sampleshp, num, MetadatTxt)
+    GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(sampleshp, num, MetadatTxt)
