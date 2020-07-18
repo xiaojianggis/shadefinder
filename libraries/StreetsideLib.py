@@ -157,8 +157,7 @@ def convert_img(inimg, outfile):
     n = int(ho/3)
     # Create new image with width w, and height h
     outimg = Image.new('RGB', (w, h))
-    # print("The ouput file size is:", w, h)
-    
+
     # For each pixel in output image find colour value from input image
     for ycoord in range(0, h):
         for xcoord in range(0, w):
@@ -243,11 +242,6 @@ def cylindrical2Perspective(panoImg, heading, fov, pitch):
             if phi > 0.5*np.pi: phi = phi - 0.5*np.pi
             if theta > np.pi: theta = theta - 2*np.pi
             
-    # #         theta = math.atan(2*xD/width - 1)
-    #         theta = math.atan(heading + xD/(width*1.0/fov))
-    # #         phi = math.atan(2*yD/height - 1)*math.sin(theta)
-    #         phi = math.atan(yD/(height*1.0/fov))*math.sin(theta)
-            
             # find the corresponding location on the cylindrical panoramas
             xS = (theta + np.pi)/(2*np.pi) * Ws
             yS = (np.pi/2 - phi)/np.pi*Hs
@@ -260,11 +254,7 @@ def cylindrical2Perspective(panoImg, heading, fov, pitch):
     outputImg = cv2.remap(panoImg,xmap,ymap,cv2.INTER_NEAREST)
 
     return outputImg
-    
-    # plt.imshow(panoImg)
-    # plt.show()
-    # plt.imshow(outputImg)
-    # plt.show()
+
 
 
 
