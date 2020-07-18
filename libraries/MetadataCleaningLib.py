@@ -108,7 +108,7 @@ def metadataCleaning_winter_summer_txt (MetadataTxt, cleanedMetadataFolder, gree
     panoInfoText.close()
 
 
-def metadataCleaning (Metadata, cleanedMetadataFolder, greenMonthList):
+def metadataCleaning(Metadata, cleanedMetadataFolder, greenMonthList):
     '''
     This script is used to clean the metadata collected from historyMetadata code
     input txtfile/folder output as folder
@@ -223,10 +223,6 @@ def metadata_txt_add_tilts(in_metadata_filename, complete_cleanedMetadata):
                     # get the meta data of the panorama
                     panoInfo = data['panorama']['data_properties']
                     print(panoInfo)
-                    # panoDate = panoInfo.items()[4][1]
-                    # panoId = panoInfo.items()[5][1]
-                    # panoLat = panoInfo.items()[8][1]
-                    # panoLon = panoInfo.items()[9][1]
 
                     panoDate = panoInfo['@image_date']
                     panoId = panoInfo['@pano_id']
@@ -237,10 +233,6 @@ def metadata_txt_add_tilts(in_metadata_filename, complete_cleanedMetadata):
 
                     # get the pano_yaw_degree
                     panoProj = data['panorama']['projection_properties']
-                    # pano_yaw_degree = float(data['panorama']['projection_properties'].items()[1][1])
-                    # tilt_yaw_deg = float(data['panorama']['projection_properties'].items()[2][1])
-                    # tilt_pitch_deg = float(data['panorama']['projection_properties'].items()[3][1])
-
                     pano_yaw_degree = float(panoProj['@pano_yaw_deg'])
                     tilt_yaw_deg = float(panoProj['@tilt_yaw_deg'])
                     tilt_pitch_deg = float(panoProj['@tilt_pitch_deg'])
@@ -255,7 +247,6 @@ def metadata_txt_add_tilts(in_metadata_filename, complete_cleanedMetadata):
                         tilt_pitch_deg = -tilt_pitch_deg
                         tilt_yaw_deg = -tilt_yaw_deg
 
-                    # print ('The coordinate (%s,%s), panoId is: %s, panoDate is: %s'%(panoLon,panoLat,panoId, panoDate))
                     lineTxt = 'pntnum: %s panoID: %s panoDate: %s longitude: %s latitude: %s pano_yaw_degree: %s tilt_yaw_deg: %s tilt_pitch_deg: %s\n'%(pntnum, panoid, panodate, panolon, panolat, hyaw, tilt_yaw_deg, tilt_pitch_deg)
                     panoInfoText.write(lineTxt)
             
@@ -276,8 +267,7 @@ if __name__ == "__main__":
     
     root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Exposure Model/source-code/skyview/pano-lab/sunglare-pano'
     # MetadatTxt = os.path.join(root,'Pnt_start0_end1000.txt')
-    # MetadatTxt = os.path.join(root,'Pnt_start1000_end2000.txt')
-    
+
     cleanedMetadatTxt = os.path.join(root, 'cleanedMetadata2')
     # metadataCleaning_txt(MetadatTxt, cleanedMetadatTxt)
     # metadataCleaning_winter_summer_txt(MetadatTxt, cleanedMetadatTxt)
@@ -285,13 +275,6 @@ if __name__ == "__main__":
     
     
     ## STEP 1: ----- Select most recent year Winter and Summer records-----------
-    # clean the data for Florida
-    root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Sun Expo/database'
-    inroot = os.path.join(root, 'Metadata_Florida_Allroads')
-    outroot = os.path.join(root, 'Cleaned_Metadata_Florida_Allroads')
-    # metadataCleaning(inroot, outroot)
-    
-    
     # for all states
     root = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Sun Expo/database'
     infolder = os.path.join(root, 'Metadata_US_InterState')
@@ -301,7 +284,6 @@ if __name__ == "__main__":
         outroot = os.path.join(root, 'Cleaned_Metadata_US_InterState','Cleaned_'+basename)
         # metadataCleaning(inroot, outroot)
         
-    # For 
     
     
     
