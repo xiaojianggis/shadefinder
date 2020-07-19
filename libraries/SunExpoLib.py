@@ -36,7 +36,6 @@ def GSVpanoramaDowloader_GoogleMaps(panoId, gsvPanoImgFile='gsvPano.jpg'):
     # download the GSV panoramas by specifying the parmaters
     # the zoom 0, size is 208*416 (1*1)
     # zoom 1, size is 412*832 (1*2) - > 832*1664 (2*4)
-    
     zoom = 2
     if zoom == 0:
         xNum = 1
@@ -96,18 +95,15 @@ def GSVpanoramaDowloader_GoogleMaps(panoId, gsvPanoImgFile='gsvPano.jpg'):
     cut_mergedImg[:,:,0] = mergedImg[:rowlim,:collim,0]
     cut_mergedImg[:,:,1] = mergedImg[:rowlim,:collim,1]
     cut_mergedImg[:,:,2] = mergedImg[:rowlim,:collim,2]
-    print ('The size of the GSV panorama is:',cut_mergedImg.shape)
+    print('The size of the GSV panorama is:',cut_mergedImg.shape)
     
     img = Image.fromarray(cut_mergedImg)
-    # mergedImgFile = os.path.join(outGSVRoot,panoId+'.jpg')
     img.save(gsvPanoImgFile)
-    del img,mergedImg
+    del img, mergedImg
     
     return cut_mergedImg
     
 
-
-##def cylinder2fisheyeImage (inputImage,outputPano, pano_yaw_deg):
 def cylinder2fisheyeImage (panoImg,yaw,outputImgFile='fisheye.jpg'):
     '''
         This program is used to convert cylindrical panorama images to original image
