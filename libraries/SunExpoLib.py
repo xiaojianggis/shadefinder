@@ -260,7 +260,6 @@ def SunPosOnFisheyeimage(panoImgFile,plotedFisheyeImg,currentTime,lon, lat):
 
     # read the hemispherical image
     outputSunpathImage = np.array(Image.open(panoImgFile))
-    #outputSunpathImage = panoImgFile
     dims = outputSunpathImage.shape
     cols = dims[0]
     rows = dims[1]
