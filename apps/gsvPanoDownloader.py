@@ -12,5 +12,5 @@ root = '/Users/senseablecity/Dropbox (MIT)/Start-up/Exposure Model/source-code/s
 outputName = os.path.join(root, panoId + '.jpg')
 print ('The output panorama is:', outputName)
 
-# download the GSV panorama
+# download cylinder GSV panorama
 cylinderPanoImg = sunexpo.GSVpanoramaDowloader_GoogleMaps(panoId, outputName)
