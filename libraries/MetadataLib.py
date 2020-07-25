@@ -133,10 +133,10 @@ def GSVpanoMetadataCollectorBatch_Yaw_fiona(samplesFeatureClass,num,ouputTextFol
         
     '''
     
-    dataset, batch = GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass,num,ouputTextFolder)
+    dataset, batch, featureNum = GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass,num,ouputTextFolder)
 
     for b in range(batch):
-        start, end, ouputGSVinfoFile = get_output_text_file_path(b, num, ouputTextFolder)
+        start, end, ouputGSVinfoFile = get_output_text_file_path(b, num, featureNum, ouputTextFolder)
         
         # skip over those existing txt files
         if os.path.exists(ouputGSVinfoFile):
@@ -304,10 +304,10 @@ def GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass, num, ouputTextFolde
     
     print ('The batch size is:', batch)
 
-    return dataset, batch
+    return dataset, batch, featureNum
     
 
-def get_output_text_file_path(b, num, ouputTextFolder):
+def get_output_text_file_path(b, num, featureNum, ouputTextFolder):
     # for each batch process num GSV site
     start = b*num
     end = (b+1)*num
@@ -334,11 +334,11 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(samplesFeatureClass,num,ouput
         
     '''
 
-    dataset, batch = GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass,num,ouputTextFolder)
+    dataset, batch, featureNum = GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass,num,ouputTextFolder)
     
     for b in range(batch):
         
-        start, end, ouputGSVinfoFile = get_output_text_file_path(b, num, ouputTextFolder)
+        start, end, ouputGSVinfoFile = get_output_text_file_path(b, num, featureNum, ouputTextFolder)
         
         # skip over those existing txt files
         if os.path.exists(ouputGSVinfoFile):
