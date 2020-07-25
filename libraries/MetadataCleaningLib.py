@@ -63,9 +63,6 @@ def metadataCleaning_winter_summer_txt (MetadataTxt, cleanedMetadataFolder, gree
             # if there is no panorama availalbe, then skip
             if pnt_pano_number < 1:
                 continue
-    #         elif pnt_pano_number == 1: # if there is only one panorama then save this pano info
-    #             panoInfoText.write(iLine_list[0])
-    #             s_pntnum_list.append(i)
             else:
                 # temprary variables, used to find the most recent pano
                 newpanoyear_s = 2007
@@ -80,7 +77,7 @@ def metadataCleaning_winter_summer_txt (MetadataTxt, cleanedMetadataFolder, gree
                         panomonth = elements[7]
                     except: 
                         continue                
-                    
+
                     # for leaf on seasons, keep one panorama, using the most recent image
                     if i not in s_pntnum_list and panomonth in greenMonthList and panoyear > 2009 and panoyear < 2016: 
                         s_pntnum_list.append(i)
@@ -90,7 +87,8 @@ def metadataCleaning_winter_summer_txt (MetadataTxt, cleanedMetadataFolder, gree
                             insertSLine = iline
                             summerFlag = 1
 
-                if summerFlag: panoInfoText.write(insertSLine)            
+                if summerFlag: 
+                    panoInfoText.write(insertSLine)            
 
     panoInfoText.close()
 
