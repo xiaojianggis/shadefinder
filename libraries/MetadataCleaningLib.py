@@ -38,8 +38,6 @@ def metadataCleaning_winter_summer_txt (MetadataTxt, cleanedMetadataFolder, gree
         startPnt = int(txtlist[0].split("Pnt_start")[1])
         endPnt = int(txtlist[1][:-4])
 
-        print (MetadataTxt)
-
         s_pntnum_list = [] # mark as the summer pntnum list
 
         for i in range (startPnt, endPnt):
