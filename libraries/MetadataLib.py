@@ -296,7 +296,6 @@ def GSVpanoMetadataCollectorBatch_Yaw_fiona(samplesFeatureClass,num,ouputTextFol
                 
                 # the output result of the meta data is a xml object
                 # try: 
-                print('judge python version')
                 # using different url reading method in python2 and python3
                 if sys.version_info[0] == 2:
                     import urllib
