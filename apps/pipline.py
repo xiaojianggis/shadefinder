@@ -47,8 +47,9 @@ print('Collecting metadata')
 # Clean the metadata to guarantee that one summer panorama is selected
 inroot = MetadatTxt
 outroot = os.path.join(root, 'cleaned-metadata-sw-recentyear')
-outputShapefile = os.path.join(root, 'spatial-data', cityname+'cleanedSummerGSV.shp')
-if not os.path.exists(outroot): os.mkdir(outroot)
+outputShapefile = os.path.join(outroot, cityname+'_cleanedSummerGSV.shp')
+if not os.path.exists(outroot): 
+    os.mkdir(outroot)
 metaclean.metadataCleaning(inroot, outroot, greenMonthList)
 
 
