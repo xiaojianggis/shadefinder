@@ -82,7 +82,6 @@ def createPoints(inshp, outshp, mini_dist):
     
     # Create point along the streets
     with fiona.Env():
-        #with fiona.open(outshp, 'w', 'ESRI Shapefile', crs=source.crs, schema) as output:
         with fiona.open(outshp, 'w', crs = from_epsg(4326), driver = 'ESRI Shapefile', schema = schema) as output:
             for line in fiona.open(temp_cleanedStreetmap):
                 try: 
