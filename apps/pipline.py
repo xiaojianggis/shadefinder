@@ -47,7 +47,7 @@ print('Collecting metadata')
 # Clean the metadata to guarantee that one summer panorama is selected
 inroot = MetadatTxt
 outroot = os.path.join(root, 'cleaned-metadata-sw-recentyear')
-outputShapefile = os.path.join(outroot, cityname+'_cleanedSummerGSV.shp')
+
 if not os.path.exists(outroot): 
     os.mkdir(outroot)
 metaclean.metadataCleaning(inroot, outroot, greenMonthList)
@@ -56,6 +56,7 @@ metaclean.metadataCleaning(inroot, outroot, greenMonthList)
 
 ## STEP 4. --------- Check the spatial distribution of the finally selected GSV panos
 metafolder = outroot # the cleaned meta
+outputShapefile = os.path.join(outroot, cityname+'_cleanedSummerGSV.shp')
 
 pntNumlist = []
 panoIDlist = []
