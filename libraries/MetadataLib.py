@@ -358,7 +358,6 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(samplesFeatureClass,num,ouput
             end = featureNum
         
         ouputTextFile = 'Pnt_start%s_end%s.txt'%(start,end)
-        # print '------------', ouputTextFile
         ouputGSVinfoFile = os.path.join(ouputTextFolder,ouputTextFile)
         
         # skip over those existing txt files
