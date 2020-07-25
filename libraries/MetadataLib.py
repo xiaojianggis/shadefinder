@@ -350,7 +350,6 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(samplesFeatureClass,num,ouput
         with open(ouputGSVinfoFile, 'w') as panoInfoText:
             # process num feature each time
             for i in range(start, end):
-                if i % 100== 0: print('reaching: ', i)
                 feature = dataset[i]       
                 coord = feature['geometry']['coordinates']
                 lon = coord[0]
@@ -383,8 +382,7 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(samplesFeatureClass,num,ouput
                             month = res[j]["month"]
                             if month<10: month = '0' + str(month)
                             
-                            lineTxt = 'pntNum: %d panoID: %s year: %s month: %s longitude: %s latitude: %s pano_yaw_degree: %s\n'%(i, panoid, year, month, panoLon, panoLat, pano_yaw_degree)
-                            #print lineTxt                                                                             
+                            lineTxt = 'pntNum: %d panoID: %s year: %s month: %s longitude: %s latitude: %s pano_yaw_degree: %s\n'%(i, panoid, year, month, panoLon, panoLat, pano_yaw_degree)                                                                         
                             
                             time.sleep(0.05)
                             panoInfoText.write(lineTxt)
