@@ -136,14 +136,7 @@ def GSVpanoMetadataCollectorBatch_Yaw_fiona(samplesFeatureClass,num,ouputTextFol
     dataset, batch = GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass,num,ouputTextFolder)
 
     for b in range(batch):
-        # for each batch process num GSV site
-        start = b*num
-        end = (b+1)*num
-        if end > featureNum:
-            end = featureNum
-        
-        ouputTextFile = 'Pnt_start%s_end%s.txt'%(start,end)
-        ouputGSVinfoFile = os.path.join(ouputTextFolder,ouputTextFile)
+        ouputGSVinfoFile = get_output_text_file_path(b, num, ouputTextFolder)
         
         # skip over those existing txt files
         if os.path.exists(ouputGSVinfoFile):
@@ -314,6 +307,16 @@ def GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass, num, ouputTextFolde
     return dataset, batch
     
 
+def get_output_text_file_path(b, num, ouputTextFolder):
+    # for each batch process num GSV site
+        start = b*num
+        end = (b+1)*num
+        if end > featureNum:
+            end = featureNum
+    ouputTextFile = 'Pnt_start%s_end%s.txt'%(start,end)
+    ouputGSVinfoFile = os.path.join(ouputTextFolder,ouputTextFile)
+    return ouputGSVinfoFile
+    
 
 # Using Fiona not gdal
 def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(samplesFeatureClass,num,ouputTextFolder):
@@ -334,15 +337,8 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(samplesFeatureClass,num,ouput
     dataset, batch = GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass,num,ouputTextFolder)
     
     for b in range(batch):
-        print('process batch: ', b)
-        # for each batch process num GSV site
-        start = b*num
-        end = (b+1)*num
-        if end > featureNum:
-            end = featureNum
         
-        ouputTextFile = 'Pnt_start%s_end%s.txt'%(start,end)
-        ouputGSVinfoFile = os.path.join(ouputTextFolder,ouputTextFile)
+        ouputGSVinfoFile = get_output_text_file_path(b, num, ouputTextFolder)
         
         # skip over those existing txt files
         if os.path.exists(ouputGSVinfoFile):
