@@ -80,16 +80,7 @@ def metadataCleaning_winter_summer_txt (MetadataTxt, cleanedMetadataFolder, gree
                         panomonth = elements[7]
                     except: 
                         continue                
-
-    #                 # for the leaf off seasons, keep one panorama, using the most recent image
-    #                 # if i not in w_pntnum_list and panomonth in ['11', '12', '01', '02', '03', '04'] and panoyear > 2008:
-    #                 if i not in w_pntnum_list and panomonth in ['12', '01', '02', '03'] and panoyear > 2008:
-    #                     w_pntnum_list.append(i)
-    #                     if panoyear > newpanoyear_w:
-    #                         newpanoyear_w = panoyear
-    #                         insertWLine = iline
-    #                         winterFlag = 1
-
+                    
                     # for leaf on seasons, keep one panorama, using the most recent image
                     if i not in s_pntnum_list and panomonth in greenMonthList and panoyear > 2009 and panoyear < 2016: 
                         s_pntnum_list.append(i)
