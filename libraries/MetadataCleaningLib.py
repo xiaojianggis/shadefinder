@@ -53,6 +53,9 @@ def metadataCleaning_winter_summer_txt (MetadataTxt, cleanedMetadataFolder, gree
                     # add the line for pnt i to the list
                     if pntnum==i:
                         iLine_list.append(line)
+                except ValueError:
+                    print("Make sure metadata submitted contains pntNum")
+                    raise
                 except:
                     continue
 
