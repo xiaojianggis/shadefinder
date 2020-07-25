@@ -24,11 +24,11 @@ outfilename = '%s100m.shp'%(cityname)
 outshp = os.path.join(root, outfilename)
 
 
-## Step 1. -------Sampling part -----------------------
+## Step 1. ------- Sampling part -----------------------
 spl.createPoints(inshp, outshp, mini_dist)
 
 
-## Step 2. ---------Get the historical GSV metadata ---------------------
+## Step 2. --------- Get the historical GSV metadata ---------------------
 batchNum = 1000
 
 MetadatTxt = os.path.join(root, 'metadata')
@@ -43,7 +43,7 @@ print('Collecting metadata')
 
 
 
-## STEP 3: -------Clean the metadata to keep summer GSV record, one pano for one site, 2009-2014, can be modified
+## STEP 3. ------- Clean the metadata to keep summer GSV record, one pano for one site, 2009-2014, can be modified
 # Clean the metadata to guarantee that one summer panorama is selected
 inroot = MetadatTxt
 outroot = os.path.join(root, 'cleaned-metadata-sw-recentyear')
@@ -53,7 +53,7 @@ metaclean.metadataCleaning(inroot, outroot, greenMonthList)
 
 
 
-## STEP 4: --------- Check the spatial distribution of the finally selected GSV panos
+## STEP 4. --------- Check the spatial distribution of the finally selected GSV panos
 metafolder = outroot # the cleaned meta
 
 pntNumlist = []
@@ -92,7 +92,7 @@ print('created the file', outputShapefile)
 
 
 
-## STEP 5: ---------- Dowload the GSV panoramas-----------
+## STEP 5. ---------- Dowload the GSV panoramas-----------
 gsvimgs = os.path.join(root, 'gsv-panos')
 
 if not os.path.exists(gsvimgs):
