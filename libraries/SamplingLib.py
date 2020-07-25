@@ -38,6 +38,7 @@ def createPoints(inshp, outshp, mini_dist):
     from functools import partial
     import pyproj
     from fiona.crs import from_epsg
+    import sys
     
     
     count = 0
@@ -133,6 +134,7 @@ def createPoints(inshp, outshp, mini_dist):
                 
                 except:
                     print ("You should make sure the input shapefile is WGS84")
+                    print(sys.exc_info())
                     return
 
     print("Process Complete")
