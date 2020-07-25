@@ -48,8 +48,6 @@ print('Collecting metadata')
 inroot = MetadatTxt
 outroot = os.path.join(root, 'cleaned-metadata-sw-recentyear')
 
-if not os.path.exists(outroot): 
-    os.mkdir(outroot)
 metaclean.metadataCleaning(inroot, outroot, greenMonthList)
 
 
