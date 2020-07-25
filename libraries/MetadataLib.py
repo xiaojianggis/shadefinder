@@ -309,10 +309,10 @@ def GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass, num, ouputTextFolde
 
 def get_output_text_file_path(b, num, ouputTextFolder):
     # for each batch process num GSV site
-        start = b*num
-        end = (b+1)*num
-        if end > featureNum:
-            end = featureNum
+    start = b*num
+    end = (b+1)*num
+    if end > featureNum:
+        end = featureNum
     ouputTextFile = 'Pnt_start%s_end%s.txt'%(start,end)
     ouputGSVinfoFile = os.path.join(ouputTextFolder,ouputTextFile)
     return start, end, ouputGSVinfoFile
