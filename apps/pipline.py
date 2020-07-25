@@ -35,11 +35,11 @@ MetadatTxt = os.path.join(root, 'metadata')
 if not os.path.exists(MetadatTxt):
     os.mkdir(MetadatTxt)
 
-metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, batchNum, MetadatTxt)
+# metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, batchNum, MetadatTxt)
 print('Collecting metadata')
 
 # for multi-temporal metadata, use
-# metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(outshp, batchNum, MetadatTxt)
+metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(outshp, batchNum, MetadatTxt)
 
 
 
