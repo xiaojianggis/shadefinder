@@ -3,6 +3,12 @@
 # data based on "https://github.com/robolyst/streetview"
 # First version, June 19th, 2017, MIT Senseable City Lab
 
+import xmltodict
+import time
+import os,os.path
+import fiona
+import sys
+
 def _panoids_url(lat, lon):
     """
     Builds the URL of the script on Google's servers that returns the closest
@@ -127,21 +133,7 @@ def GSVpanoMetadataCollectorBatch_Yaw_fiona(samplesFeatureClass,num,ouputTextFol
         
     '''
     
-    import xmltodict
-    import sys
-    import time
-    import os,os.path
-    import fiona
-    
-    if not os.path.exists(ouputTextFolder):
-        os.makedirs(ouputTextFolder)
-    
-    dataset = fiona.open(samplesFeatureClass)
-    
-    featureNum = len(list(dataset))    
-    batch = int(featureNum/num) + 1
-    
-    print ('The batch size is:', batch)
+    dataset, batch = GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass,num,ouputTextFolder)
 
     for b in range(batch):
         # for each batch process num GSV site
@@ -233,10 +225,7 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine(samplesFeatureClass,num,ouputT
         
     '''
     
-    import xmltodict
     import ogr, osr
-    import time
-    import os,os.path
     
     if not os.path.exists(ouputTextFolder):
         os.makedirs(ouputTextFolder)
@@ -312,6 +301,18 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine(samplesFeatureClass,num,ouputT
         panoInfoText.close()
         
 
+def GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass, num, ouputTextFolder):
+    if not os.path.exists(ouputTextFolder):
+        os.makedirs(ouputTextFolder)
+
+    dataset = fiona.open(samplesFeatureClass)
+    featureNum = len(list(dataset))    
+    batch = int(featureNum/num) + 1
+    
+    print ('The batch size is:', batch)
+
+    return dataset, batch
+    
 
 
 # Using Fiona not gdal
@@ -329,25 +330,8 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(samplesFeatureClass,num,ouput
         ouputTextFolder: the output folder for the panoinfo
         
     '''
-    
-    import xmltodict
-    import time
-    import os,os.path
-    import fiona
-    import sys
 
-    if not os.path.exists(ouputTextFolder):
-        os.makedirs(ouputTextFolder)
-    
-    # change the projection of shapefile to the WGS84
-    dataset = fiona.open(samplesFeatureClass)
-    print('len(list(data))', len(list(dataset)))
-    
-    
-    # loop all the features in the featureclass
-    featureNum = len(list(dataset))
-    batch = int(featureNum/num) + 1
-    
+    dataset, batch = GSVpanoMetadataCollectorBatch_Utils(samplesFeatureClass,num,ouputTextFolder)
     
     for b in range(batch):
         print('process batch: ', b)
