@@ -29,15 +29,17 @@ spl.createPoints(inshp, outshp, mini_dist)
 
 
 ## Step 2. ---------Get the historical GSV metadata ---------------------
+batchNum = 1000
+
 MetadatTxt = os.path.join(root, 'metadata')
 if not os.path.exists(MetadatTxt):
     os.mkdir(MetadatTxt)
 
-metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, 1000, MetadatTxt)
+metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, batchNum, MetadatTxt)
 print('Collecting metadata')
 
 # for multi-temporal metadata, use
-# metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(outshp, 1000, MetadatTxt)
+# metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(outshp, batchNum, MetadatTxt)
 
 
 
