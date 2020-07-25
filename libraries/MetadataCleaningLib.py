@@ -32,13 +32,11 @@ def metadataCleaning_winter_summer_txt (MetadataTxt, cleanedMetadataFolder, gree
         txtlist = MetadataTxt.split("_end")
 
         # create an empty list of the panorama id, to guratee there is no duplicate panorama
-        panoidlist = []
+        s_pntnum_list = [] # mark as the summer pntnum list
 
         # the point number of the txt file
         startPnt = int(txtlist[0].split("Pnt_start")[1])
         endPnt = int(txtlist[1][:-4])
-
-        s_pntnum_list = [] # mark as the summer pntnum list
 
         for i in range (startPnt, endPnt):
             iLine_list = []
