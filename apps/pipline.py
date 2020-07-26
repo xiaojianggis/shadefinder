@@ -23,7 +23,9 @@ root = os.getcwd()
 inshp = os.path.join(root, 'CambridgeStreet_wgs84.shp')
 outfilename = '%s100m.shp' % (cityname)
 outshp = os.path.join(root, outfilename)
-
+MetadatTxt = os.path.join(root, 'metadata')
+cleaned_meta = os.path.join(root, 'cleaned-metadata-sw-recentyear')
+gsvimgs = os.path.join(root, 'gsv-panos')
 
 # Step 1. ------- Sampling part -----------------------
 spl.createPoints(inshp, outshp, mini_dist)
@@ -31,8 +33,6 @@ spl.createPoints(inshp, outshp, mini_dist)
 
 # Step 2. --------- Get the historical GSV metadata ---------------------
 batchNum = 1000
-
-MetadatTxt = os.path.join(root, 'metadata')
 
 # metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, batchNum, MetadatTxt)
 print('Collecting metadata')
@@ -44,15 +44,12 @@ metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(
 
 # STEP 3. ------- Clean the metadata to keep summer GSV record, one pano for one site, 2009-2014, can be modified
 # Clean the metadata to guarantee that one summer panorama is selected
-inroot = MetadatTxt
-outroot = os.path.join(root, 'cleaned-metadata-sw-recentyear')
 
-metaclean.metadataCleaning(inroot, outroot, greenMonthList)
+metaclean.metadataCleaning(MetadatTxt, cleaned_meta, greenMonthList)
 
 
 # STEP 4. --------- Check the spatial distribution of the finally selected GSV panos
-metafolder = os.path.join(root, 'cleaned-metadata-sw-recentyear')  # the cleaned meta
-outputShapefile = os.path.join(outroot, cityname+'_cleanedSummerGSV.shp')
+outputShapefile = os.path.join(cleaned_meta, cityname+'_cleanedSummerGSV.shp')
 
 pntNumlist = []
 panoIDlist = []
@@ -61,8 +58,8 @@ latlist = []
 yawlist = []
 datelist = []
 
-for idx, file in enumerate(os.listdir(metafolder)):
-    metafilename = os.path.join(metafolder, file)
+for idx, file in enumerate(os.listdir(cleaned_meta)):
+    metafilename = os.path.join(cleaned_meta, file)
 
     # read the meta txt file and read the meta into list
     lines = open(metafilename, "r")
@@ -92,17 +89,14 @@ print('created the file', outputShapefile)
 
 
 # STEP 5. ---------- Dowload the GSV panoramas-----------
-gsvimgs = os.path.join(root, 'gsv-panos')
-
 if not os.path.exists(gsvimgs):
     os.mkdir(gsvimgs)
 
 print('Download the gsv panoramas')
-cleanedMeta = outroot
-print('The meta is:', cleanedMeta)
-for metatxt in os.listdir(cleanedMeta):
+
+for metatxt in os.listdir(cleaned_meta):
     print('The metadata is:', metatxt)
-    metatxtfile = os.path.join(cleanedMeta, metatxt)
+    metatxtfile = os.path.join(cleaned_meta, metatxt)
     monthlist = ['11', '12', '01', '02', '03',
                  '04', '05', '06', '07', '08', '09', '10']
     # the last para is used to mark historical () or non historical gsv meta
