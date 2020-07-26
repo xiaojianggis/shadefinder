@@ -78,9 +78,6 @@ for idx, file in enumerate(os.listdir(cleaned_meta)):
             print('read metadata txt failed')
             continue
 
-    if idx % 100 == 0:
-        print(idx)
-
 
 attr_dict = {'pntnum': pntNumlist, 'yaw': yawlist}
 
