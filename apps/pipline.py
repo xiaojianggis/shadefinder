@@ -32,8 +32,6 @@ spl.createPoints(inshp, outshp, mini_dist)
 batchNum = 1000
 
 MetadatTxt = os.path.join(root, 'metadata')
-if not os.path.exists(MetadatTxt):
-    os.mkdir(MetadatTxt)
 
 # metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, batchNum, MetadatTxt)
 print('Collecting metadata')
