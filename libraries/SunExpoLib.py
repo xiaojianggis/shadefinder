@@ -1613,24 +1613,15 @@ if __name__ == "__main__":
     root = os.getcwd()
     panoFolder = os.path.join(root, "gsv-panos")
 
-    panoId = "U8B4cKDxnauFW-Yt7siKtw"
-    panoId = "c8gcWEqLiOcVwDrtJDiB4g"
-    panoId = "8TrMswYKbaU8FCSYFlQuqQ"
-    panoId = "n9rwq7DxgtoWkD8I96caEg"
-    panoId = "4G5km0yE7QsmzxE7YBPRYw"
-    panoId = "XSBf9u3gM6LVrrhKTXZO6w" # https://www.google.com/maps/@42.391247,-71.110218,3a,90y,187.3h,110.37t/data=!3m6!1e1!3m4!1sXSBf9u3gM6LVrrhKTXZO6w!2e0!7i13312!8i6656
-    panoId = "WFeq-xC3gkzkPDxU2Os3Zw" # https://www.google.com/maps/@42.3908457,-71.1093114,3a,75y,205.58h,110.3t/data=!3m6!1e1!3m4!1sWFeq-xC3gkzkPDxU2Os3Zw!2e0!7i13312!8i6656
-    panoId = "98t1y9unJQ6JSHk9w8WBkA" # https://www.google.com/maps/@42.3630527,-71.0995882,3a,75y,222.56h,120.17t/data=!3m7!1e1!3m5!1s98t1y9unJQ6JSHk9w8WBkA!2e0!6s%2F%2Fgeo1.ggpht.com%2Fcbk%3Fpanoid%3D98t1y9unJQ6JSHk9w8WBkA%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D164.61484%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656
-    panoId = "-kYdtGyFfKaIeQjji2Cd0g" # yaw: 309.38, https://www.google.com/maps/@42.3606862,-71.0957474,3a,75y,301.9h,82.93t/data=!3m7!1e1!3m5!1s-kYdtGyFfKaIeQjji2Cd0g!2e0!5s20130901T000000!7i13312!8i6656
-    panoId = "qg2tq2RkyYBIWMNLADjwpg" # yaw: 55.649998, https://www.google.com/maps/@42.3573843,-71.1004699,3a,75y,207.7h,118.23t/data=!3m7!1e1!3m5!1sqg2tq2RkyYBIWMNLADjwpg!2e0!5s20130901T000000!7i13312!8i6656
-    panoId = "Ef9pF_YcUTz2MRUsT-DvwA" # yaw: 273.156433105 
-    panoId = "uUxR_NdBVXujWIjZmTqJiw"
-    
-    panoImgFile = os.path.join(panoFolder,panoId + '.jpg')
-    panoImg = GSVpanoramaDowloader_GoogleMaps(panoId,panoImgFile)
-    
-    hemiImgFile = os.path.join(panoFolder, panoId + '_hemi.jpg')
-    cylinder2fisheyeImage (panoImg,0,hemiImgFile)
+    for pano in os.listdir(panoFolder):
+        if not pano.endswith('.jpg'): 
+            continue
+
+        file_path = os.path.join(panoFolder, pano)
+        panoImg = np.array(Image.open(file_path))
+        hemiImgFile = os.path.join(panoFolder, pano + '_hemi.jpg')
+        cylinder2fisheyeImage(panoImg, 0, hemiImgFile)
+
     
     # specify the date information
     year = 2018
