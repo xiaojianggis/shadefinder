@@ -93,5 +93,5 @@ print('Download the gsv panoramas')
 for metatxt in os.listdir(cleaned_meta):
     print('The metadata is:', metatxt)
     metatxtfile = os.path.join(cleaned_meta, metatxt)
-    # the last para is used to mark historical () or non historical gsv meta
+    # the last param is used to mark historical (1) or non historical (0) gsv meta
     downlib.GSVpanoramaDowloader(metatxtfile, greenMonthList, gsvimgs, historical=1)
