@@ -59,9 +59,10 @@ yawlist = []
 datelist = []
 
 for idx, file in enumerate(os.listdir(cleaned_meta)):
-    metafilename = os.path.join(cleaned_meta, file)
-    if not file.endswith('.txt'): continue
+    if not file.endswith('.txt'): 
+        continue
 
+    metafilename = os.path.join(cleaned_meta, file)
     # read the meta txt file and read the meta into list
     lines = open(metafilename, "r")
     for line in lines:
