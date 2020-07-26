@@ -13,8 +13,9 @@ import SamplingLib as spl
 import os
 import os.path
 
-
+# User-defined parameters 
 mini_dist = 100
+batchNum = 1000
 cityname = 'Cambridge'
 greenMonthList = ['04', '05', '06', '07', '08', '09', '10', '11']
 
@@ -22,6 +23,7 @@ os.chdir("sample-spatialdata/")
 root = os.getcwd()
 inshp = os.path.join(root, 'CambridgeStreet_wgs84.shp')
 outfilename = '%s100m.shp' % (cityname)
+
 outshp = os.path.join(root, outfilename)
 MetadatTxt = os.path.join(root, 'metadata')
 cleaned_meta = os.path.join(root, 'cleaned-metadata-sw-recentyear')
@@ -32,15 +34,13 @@ spl.createPoints(inshp, outshp, mini_dist)
 
 
 # Step 2. --------- Get the historical GSV metadata ---------------------
-batchNum = 1000
 
-# metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, batchNum, MetadatTxt)
 print('Collecting metadata')
 
 # for multi-temporal metadata, use
 metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(
     outshp, batchNum, MetadatTxt)
-
+# metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, batchNum, MetadatTxt)
 
 # STEP 3. ------- Clean the metadata to keep summer GSV record, one pano for one site, 2009-2014, can be modified
 # Clean the metadata to guarantee that one summer panorama is selected
