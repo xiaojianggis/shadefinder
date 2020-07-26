@@ -3,6 +3,7 @@
 # First version April 2ed, 2019
 # Copyright(c) Xiaojiang Li, MIT Senseable City Lab
 
+import sys
 sys.path.append("./libraries")
 import MetadataCleaningLib as metaclean
 import GsvdownloaderLib as downlib
@@ -11,7 +12,6 @@ import SpatialLib as spatial
 import SamplingLib as spl
 import os
 import os.path
-import sys
 
 
 mini_dist = 100
