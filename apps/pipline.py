@@ -51,7 +51,7 @@ metaclean.metadataCleaning(inroot, outroot, greenMonthList)
 
 
 # STEP 4. --------- Check the spatial distribution of the finally selected GSV panos
-metafolder = outroot  # the cleaned meta
+metafolder = os.path.join(root, 'cleaned-metadata-sw-recentyear')  # the cleaned meta
 outputShapefile = os.path.join(outroot, cityname+'_cleanedSummerGSV.shp')
 
 pntNumlist = []
