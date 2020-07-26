@@ -200,7 +200,7 @@ def GSVpanoramaDowloaderFromText(gsvInfoText, greenMonthList, outGSVRoot, flag):
                 
 
 
-def GSVpanoramaDowloader(GSVinfo, greenMonthList, outGSVRoot, flag):
+def GSVpanoramaDowloader(GSVinfo, greenMonthList, outGSVRoot, historical):
     """
     This function is used to download the GSV panoramas from Google using
     Google API, http://cbk0.google.com/cbk?output=tile&panoid=lKxUOImSaCYAAAQIt71GFQ&zoom=5&x=0&y=0
@@ -212,7 +212,7 @@ def GSVpanoramaDowloader(GSVinfo, greenMonthList, outGSVRoot, flag):
         panoInfo: the metadata of the panoramas, could be text file or folder
         greenMonthList: the list of the green month, ['06','07','08','09', '10']
         outGSVRoot: the output folder of the panorama images
-        flag: mark whether you are using historical meta or regular meta, historical 1, regular 0
+        historical: mark whether you are using historical meta or regular meta
     First version Feb 16, 2017, MIT Senseable City Lab. 
     """
     
@@ -220,20 +220,19 @@ def GSVpanoramaDowloader(GSVinfo, greenMonthList, outGSVRoot, flag):
     from PIL import Image
     import os, os.path
     
-    
     if not os.path.exists(outGSVRoot):
         os.makedirs(outGSVRoot)
 
     print ('the green mont list is:', greenMonthList)
     if os.path.isfile(GSVinfo) and GSVinfo.endswith('.txt'):
         # call the function to save the metadata as lists
-        GSVpanoramaDowloaderFromText(GSVinfo, greenMonthList, outGSVRoot, flag)
+        GSVpanoramaDowloaderFromText(GSVinfo, greenMonthList, outGSVRoot, historical)
     
     elif os.path.isdir(GSVinfo):
         allTxtFiles = os.listdir(GSVinfo)
         for gsvTextFile in allTxtFiles:
             gsvTextFilename = os.path.join(GSVinfo, gsvTextFile)
-            GSVpanoramaDowloaderFromText(gsvTextFilename, greenMonthList, outGSVRoot, flag)
+            GSVpanoramaDowloaderFromText(gsvTextFilename, greenMonthList, outGSVRoot, historical)
 
 
 
