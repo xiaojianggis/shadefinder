@@ -1609,8 +1609,9 @@ if __name__ == "__main__":
     import numpy as np
     import SunposLib as sunpos
 
-    #panoFolder = r'/Users/senseablecity/Dropbox (MIT)/ResearchProj/ShadeProvisionBoston/code'
-    panoFolder = r'/Users/senseablecity/Dropbox (MIT)/Start-up/Exposure Model/source-code/skyview/pano-lab'
+    os.chdir("sample-spatialdata/")
+    root = os.getcwd()
+    panoFolder = os.path.join(root, "gsv-panos")
 
     panoId = "U8B4cKDxnauFW-Yt7siKtw"
     panoId = "c8gcWEqLiOcVwDrtJDiB4g"
