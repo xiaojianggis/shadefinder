@@ -116,10 +116,6 @@ def GSVpanoramaDowloaderFromText(gsvInfoText, greenMonthList, outGSVRoot, flag):
     import os, os.path
     import numpy as np
     
-    
-    if not os.path.exists(outGSVRoot):
-        os.makedirs(outGSVRoot)
-    
     panoIDlst = []
     pntnumList = []
 
