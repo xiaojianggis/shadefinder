@@ -1634,7 +1634,6 @@ if __name__ == "__main__":
     lat = 42.3624523811
     lon = 71.0862483971
     zone = 5
-    daySavings = 0 # began on Mar11 ends on Nov 4
 
     yaw = 273.156433105
     glareSize = 25
