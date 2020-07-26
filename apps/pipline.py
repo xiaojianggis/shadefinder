@@ -87,8 +87,6 @@ print('created the file', outputShapefile)
 
 
 # STEP 5. ---------- Dowload the GSV panoramas-----------
-if not os.path.exists(gsvimgs):
-    os.mkdir(gsvimgs)
 
 print('Download the gsv panoramas')
 
@@ -98,4 +96,4 @@ for metatxt in os.listdir(cleaned_meta):
     monthlist = ['11', '12', '01', '02', '03',
                  '04', '05', '06', '07', '08', '09', '10']
     # the last para is used to mark historical () or non historical gsv meta
-    downlib.GSVpanoramaDowloader(metatxtfile, monthlist, gsvimgs, 1)
+    downlib.GSVpanoramaDowloader(metatxtfile, monthlist, gsvimgs, historical=1)
