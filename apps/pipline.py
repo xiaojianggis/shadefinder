@@ -10,6 +10,8 @@ import GsvdownloaderLib as downlib
 import MetadataLib as metalib
 import SpatialLib as spatial
 import SamplingLib as spl
+import SunposLib as sunpos
+from PIL import Image
 import os
 import os.path
 
@@ -96,3 +98,14 @@ for metatxt in os.listdir(cleaned_meta):
     metatxtfile = os.path.join(cleaned_meta, metatxt)
     # the last param is used to mark historical (1) or non historical (0) gsv meta
     downlib.GSVpanoramaDowloader(metatxtfile, greenMonthList, gsvimgs, historical=1)
+
+
+# STEP 6. --------- Convert to hemispherical image--------
+for pano in os.listdir(panoFolder):
+        if not pano.endswith('.jpg'): 
+            continue
+
+        file_path = os.path.join(gsvimgs, pano)
+        panoImg = np.array(Image.open(file_path))
+        hemiImgFile = os.path.join(panoFolder, pano + '_hemi.jpg')
+        cylinder2fisheyeImage(panoImg, 0, hemiImgFile)
