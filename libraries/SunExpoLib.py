@@ -1603,7 +1603,6 @@ def UV_radiation(zipcode, UV_transRatio, time):
 
 # ---------Main function, example---------
 if __name__ == "__main__":
-    import datetime
     import os,os.path
     from PIL import Image
     import numpy as np
@@ -1622,7 +1621,7 @@ if __name__ == "__main__":
         hemiImgFile = os.path.join(panoFolder, pano + '_hemi.jpg')
         cylinder2fisheyeImage(panoImg, 0, hemiImgFile)
 
-    
+
     # specify the date information
     year = 2018
     month = 4
