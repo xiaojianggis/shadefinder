@@ -101,7 +101,7 @@ for metatxt in os.listdir(cleaned_meta):
 
 
 # STEP 6. --------- Convert to hemispherical image--------
-for pano in os.listdir(panoFolder):
+for pano in os.listdir(gsvimgs):
         if not pano.endswith('.jpg'): 
             continue
 
@@ -109,3 +109,5 @@ for pano in os.listdir(panoFolder):
         panoImg = np.array(Image.open(file_path))
         hemiImgFile = os.path.join(panoFolder, pano + '_hemi.jpg')
         cylinder2fisheyeImage(panoImg, 0, hemiImgFile)
+
+
