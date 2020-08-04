@@ -188,6 +188,10 @@ def OBIA_Skyclassification_vote2Modifed_2(panoImage,classImgFile='skyRes.tif'):
             skyImg[rows,cols] = 1
     
     del labels_image, sumImg,ExB
-    
+
+    outImg = Image.fromarray(skyImg.astype(np.float32))
+    outImg.save(classImgFile)
+    del outImg
+
     return skyImg
 
