@@ -176,7 +176,7 @@ for hour in hours:
 
 i = 0
 for skyimgfile in os.listdir(segHemiImgs):
-        if not imgFile.endswith('_sky.tif'): 
+        if not skyimgfile.endswith('_sky.tif'): 
             continue
 
         i = i + 1
