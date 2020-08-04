@@ -127,7 +127,7 @@ for fisheye in os.listdir(gsvimgs):
         fisheyeImg = np.array(Image.open(file_path))
         skyImgFile = os.path.join(segHemiImgs, fisheye.replace('_hemi.jpg', '_sky.tif'))
         skyImg = imgclass.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg, skyImgFile)
-        SVF = sunexpo.SVFcalculationOnFisheye(skyImg)
+        
         
         
 # STEP 8. --------- Calculate sun path--------   
