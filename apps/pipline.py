@@ -11,7 +11,7 @@ import MetadataLib as metalib
 import SpatialLib as spatial
 import SamplingLib as spl
 import SunposLib as sunpos
-import ImgprojLib as imgproj
+import SunExpoLib as sunexpo
 import ImageClassLib as imgclass
 from PIL import Image
 import numpy as np
@@ -111,7 +111,7 @@ for pano in os.listdir(gsvimgs):
         file_path = os.path.join(gsvimgs, pano)
         panoImg = np.array(Image.open(file_path))
         hemiImgFile = os.path.join(gsvimgs, pano + '_hemi.jpg')
-        imgproj.cylinder2fisheyeImage(panoImg, 0, hemiImgFile)
+        sunexpo.cylinder2fisheyeImage(panoImg, 0, hemiImgFile)
 
 
 # STEP 7. --------- Image segmentation--------
