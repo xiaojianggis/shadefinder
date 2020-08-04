@@ -33,6 +33,7 @@ outshp = os.path.join(root, outfilename)
 MetadatTxt = os.path.join(root, 'metadata')
 cleaned_meta = os.path.join(root, 'cleaned-metadata-sw-recentyear')
 gsvimgs = os.path.join(root, 'gsv-panos')
+segHemiImgs = os.path.join(root, 'seg-hemi')
 
 # Step 1. ------- Sampling part -----------------------
 spl.createPoints(inshp, outshp, mini_dist)
@@ -124,7 +125,7 @@ for fisheye in os.listdir(gsvimgs):
 
         file_path = os.path.join(gsvimgs, fisheye)
         fisheyeImg = np.array(Image.open(file_path))
-        skyImgFile = os.path.join(gsvimgs, fisheye.replace('_hemi.jpg', '_sky.tif'))
+        skyImgFile = os.path.join(segHemiImgs, fisheye.replace('_hemi.jpg', '_sky.tif'))
         skyImg = imgclass.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg, skyImgFile)
         SVF = sunexpo.SVFcalculationOnFisheye(skyImg)
         
@@ -143,7 +144,7 @@ zone = 5
 yaw = 273.156433105
 glareSize = 25
 obstructionpixelLabel = 0
-    
+
 for fisheye in os.listdir(gsvimgs):
         if not fisheye.endswith('_hemi.jpg'): 
             continue
