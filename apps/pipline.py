@@ -125,4 +125,28 @@ for fisheye in os.listdir(gsvimgs):
         skyImg = imgclass.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg, skyImgFile)
         SVF = sunexpo.SVFcalculationOnFisheye(skyImg)
         
+        
+# STEP 8. --------- Calculate sun path--------        
+# specify the date information
+year = 2018
+month = 4
+day = 23
+
+# for Boston
+lat = 42.3624523811
+lon = 71.0862483971
+zone = 5
+
+yaw = 273.156433105
+glareSize = 25
+obstructionpixelLabel = 0
+    
+for fisheye in os.listdir(gsvimgs):
+        if not fisheye.endswith('_hemi.jpg'): 
+            continue
+
+        file_path = os.path.join(gsvimgs, fisheye)
+        fisheyeImg = np.array(Image.open(file_path))
+        plotteFisheyeImgFile = os.path.join(gsvimgs, fisheye.replace('_hemi.jpg', '_hemi_plotted.jpg'))
+        sunexpo.plot_SunPathOnFisheyeimage_noaa(fisheyeImg,plotteFisheyeImgFile, lat, lon, zone, year, month, day)
 
