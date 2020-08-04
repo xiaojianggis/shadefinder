@@ -119,6 +119,9 @@ for pano in os.listdir(gsvimgs):
 
 
 # STEP 7. --------- Image segmentation--------
+if not os.path.exists(segHemiImgs):
+        os.makedirs(segHemiImgs)
+
 for fisheye in os.listdir(gsvimgs):
         if not fisheye.endswith('_hemi.jpg'): 
             continue
