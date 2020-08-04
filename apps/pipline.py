@@ -11,6 +11,7 @@ import MetadataLib as metalib
 import SpatialLib as spatial
 import SamplingLib as spl
 import SunposLib as sunpos
+import ImgClassLib as imgclass
 from PIL import Image
 import os
 import os.path
@@ -110,4 +111,14 @@ for pano in os.listdir(gsvimgs):
         hemiImgFile = os.path.join(panoFolder, pano + '_hemi.jpg')
         cylinder2fisheyeImage(panoImg, 0, hemiImgFile)
 
+
+# STEP 7. --------- Image segmentation--------
+for fisheye in os.listdir(gsvimgs):
+        if not fisheye.endswith('_hemi.jpg'): 
+            continue
+
+        file_path = os.path.join(gsvimgs, fisheye)
+        fisheyeImg = np.array(Image.open(file_path))
+        skyImgFile = os.path.join(panoFolder, pano + '_sky.jpg')
+        imgclass.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg, 0, skyImgFile)
 
