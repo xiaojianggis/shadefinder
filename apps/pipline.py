@@ -110,7 +110,7 @@ for pano in os.listdir(gsvimgs):
 
         file_path = os.path.join(gsvimgs, pano)
         panoImg = np.array(Image.open(file_path))
-        hemiImgFile = os.path.join(gsvimgs, pano + '_hemi.jpg')
+        hemiImgFile = os.path.join(gsvimgs, pano.replace('.jpg', '_hemi.jpg'))
         sunexpo.cylinder2fisheyeImage(panoImg, 0, hemiImgFile)
 
 
@@ -121,6 +121,6 @@ for fisheye in os.listdir(gsvimgs):
 
         file_path = os.path.join(gsvimgs, fisheye)
         fisheyeImg = np.array(Image.open(file_path))
-        skyImgFile = os.path.join(gsvimgs, fisheye + '_sky.jpg')
+        skyImgFile = os.path.join(gsvimgs, fisheye.replace('_hemi.jpg', '_sky.jpg'))
         imgclass.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg, skyImgFile)
 
