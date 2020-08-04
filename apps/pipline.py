@@ -108,9 +108,9 @@ for pano in os.listdir(gsvimgs):
         if not pano.endswith('.jpg'): 
             continue
 
-        basename = pano.split('_sky.')[0]
+        basename = pano.split('.jpg')[0]
         yaw = basename.split(' - ')[-1]
-        
+
         file_path = os.path.join(gsvimgs, pano)
         panoImg = np.array(Image.open(file_path))
         hemiImgFile = os.path.join(gsvimgs, pano.replace('.jpg', '_hemi.jpg'))
