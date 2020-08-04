@@ -14,6 +14,7 @@ import SunposLib as sunpos
 import ImgprojLib as imgproj
 import ImageClassLib as imgclass
 from PIL import Image
+import numpy as np
 import os
 import os.path
 
