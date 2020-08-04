@@ -17,6 +17,8 @@ from PIL import Image
 import numpy as np
 import os
 import os.path
+import ogr,osr
+import math
 
 # User-defined parameters 
 mini_dist = 100
@@ -137,6 +139,7 @@ for fisheye in os.listdir(gsvimgs):
 year = 2018
 month = 7
 day = 15
+hour = 9
 minute = 0
 second = 0
 zone = -9 # https://www.esrl.noaa.gov/gmd/grad/solcalc/azel.html
@@ -148,12 +151,39 @@ longitude = -139.697001
 # create fields for different time stamps
 hours = [9, 12, 14, 17]
 
-for imgFile in os.listdir(segHemiImgs):
+# the output sunexpo shapefile
+shpfile = os.path.join(root, f'sunexpo-{year}-{month}-{day}-{hour}.shp')
+
+# create a shpafile to save the sun duration
+driver = ogr.GetDriverByName("ESRI Shapefile")
+
+if os.path.exists(shpfile):
+    driver.DeleteDataSource(shpfile)
+
+data_source = driver.CreateDataSource(shpfile)
+
+targetSpatialRef = osr.SpatialReference()
+targetSpatialRef.ImportFromEPSG(4326)
+
+outLayer = data_source.CreateLayer("Sunexpo", targetSpatialRef, ogr.wkbPoint)
+panoId = ogr.FieldDefn('panoid', ogr.OFTString)
+outLayer.CreateField(panoId)
+
+for hour in hours:
+    fieldname = 'expo%s'%(hour)
+    exposureField = ogr.FieldDefn(fieldname, ogr.OFTInteger) # 0 means not shaded or exposed to sunlight, 1 mean shaded or not exposed to sunlight
+    outLayer.CreateField(exposureField)
+
+i = 0
+for skyimgfile in os.listdir(segHemiImgs):
         if not imgFile.endswith('_sky.tif'): 
             continue
 
-        file_path = os.path.join(segHemiImgs, fisheye)
-        skyImg = np.array(Image.open(file_path))
+        i = i + 1
+        if i % 1000 == 0: print('You have processed %s'%(i))
+
+        skyImgFileFullname = os.path.join(segHemiImgs, skyimgfile)
+        skyImg = np.asarray(Image.open(skyImgFileFullname))
 
         basename = skyimgfile.split('_sky.')[0]
         fields = basename.split(' - ')
@@ -161,6 +191,17 @@ for imgFile in os.listdir(segHemiImgs):
         panoID = fields[1]
         lon = float(fields[2]) # watch out in the NOAA sunpos model, the eastern hemisphere has longitude negative, west has longitude positive
         lat = float(fields[3])
+
+        point = ogr.Geometry(ogr.wkbPoint)
+        point.AddPoint(lon, lat)
+        
+        # create feature and set the attribute values
+        featureDefn = outLayer.GetLayerDefn()
+        outFeature = ogr.Feature(featureDefn)
+        
+        # set the geometrical feature
+        outFeature.SetGeometry(point)
+        outFeature.SetField('panoid', panoID)
 
         
         for hour in hours:
@@ -172,5 +213,11 @@ for imgFile in os.listdir(segHemiImgs):
             exposure = 1 - shade # exposed to sunlight 1, not exposed to sunlight 0
             fieldname = 'expo%s'%(hour)
             outFeature.SetField(fieldname, exposure)
+        
+        outLayer.CreateFeature(outFeature)
+        outFeature.Destroy()
+    
+
+data_source.Destroy()
 
 
