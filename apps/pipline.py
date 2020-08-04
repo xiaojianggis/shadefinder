@@ -121,6 +121,6 @@ for fisheye in os.listdir(gsvimgs):
 
         file_path = os.path.join(gsvimgs, fisheye)
         fisheyeImg = np.array(Image.open(file_path))
-        skyImgFile = os.path.join(gsvimgs, fisheye.replace('_hemi.jpg', '_sky.jpg'))
+        skyImgFile = os.path.join(gsvimgs, fisheye.replace('_hemi.jpg', '_sky.tif'))
         imgclass.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg, skyImgFile)
 
