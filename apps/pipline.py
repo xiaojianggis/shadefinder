@@ -12,7 +12,7 @@ import SpatialLib as spatial
 import SamplingLib as spl
 import SunposLib as sunpos
 import ImgprojLib as imgproj
-import ImgClassLib as imgclass
+import ImageClassLib as imgclass
 from PIL import Image
 import os
 import os.path
