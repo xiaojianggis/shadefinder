@@ -127,30 +127,47 @@ for fisheye in os.listdir(gsvimgs):
         fisheyeImg = np.array(Image.open(file_path))
         skyImgFile = os.path.join(segHemiImgs, fisheye.replace('_hemi.jpg', '_sky.tif'))
         skyImg = imgclass.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg, skyImgFile)
+
         
-        
-        
-# STEP 8. --------- Calculate sun path--------   
-# specify the date information
+# STEP 8. --------- Calculate if a site is shaded, and save to shapefile--------   
+# specify the date and time information
 year = 2018
-month = 4
-day = 23
+month = 7
+day = 15
+minute = 0
+second = 0
+zone = -9 # https://www.esrl.noaa.gov/gmd/grad/solcalc/azel.html
 
-# for Boston
-lat = 42.3624523811
-lon = 71.0862483971
-zone = 5
+# watch out the longitude for the west hemisphere is positive and east is negative
+latitude = 35.668263
+longitude = -139.697001
 
-yaw = 273.156433105
-glareSize = 25
-obstructionpixelLabel = 0
+# create fields for different time stamps
+hours = [9, 12, 14, 17]
 
-for fisheye in os.listdir(gsvimgs):
-        if not fisheye.endswith('_hemi.jpg'): 
+for imgFile in os.listdir(segHemiImgs):
+        if not imgFile.endswith('_sky.tif'): 
             continue
 
-        file_path = os.path.join(gsvimgs, fisheye)
-        fisheyeImg = np.array(Image.open(file_path))
-        plotteFisheyeImgFile = os.path.join(gsvimgs, fisheye.replace('_hemi.jpg', '_hemi_plotted.jpg'))
-        sunexpo.plot_SunPathOnFisheyeimage_noaa(fisheyeImg,plotteFisheyeImgFile, lat, lon, zone, year, month, day)
+        file_path = os.path.join(segHemiImgs, fisheye)
+        skyImg = np.array(Image.open(file_path))
+
+        basename = skyimgfile.split('_sky.')[0]
+        fields = basename.split(' - ')
+
+        panoID = fields[1]
+        lon = float(fields[2]) # watch out in the NOAA sunpos model, the eastern hemisphere has longitude negative, west has longitude positive
+        lat = float(fields[3])
+
+        
+        for hour in hours:
+        # calculate the sun position
+            [azimuth, sunele] = sunpos.calcSun(latitude, longitude, zone, year, month, day, hour, minute, second)
+            
+            # Judge whether the sunlight is blocked or not, 0 is not shaded, 1 is shaded. 
+            shade = sunexpo.Shaded_judgement_noaa(skyImg, 0, 4, azimuth, sunele)
+            exposure = 1 - shade # exposed to sunlight 1, not exposed to sunlight 0
+            fieldname = 'expo%s'%(hour)
+            outFeature.SetField(fieldname, exposure)
+
 
