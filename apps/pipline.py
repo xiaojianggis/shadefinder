@@ -139,7 +139,6 @@ for fisheye in os.listdir(gsvimgs):
 year = 2018
 month = 7
 day = 15
-hour = 9
 minute = 0
 second = 0
 zone = -9 # https://www.esrl.noaa.gov/gmd/grad/solcalc/azel.html
@@ -152,7 +151,7 @@ longitude = -139.697001
 hours = [9, 12, 14, 17]
 
 # the output sunexpo shapefile
-shpfile = os.path.join(root, f'sunexpo-{year}-{month}-{day}-{hour}.shp')
+shpfile = os.path.join(root, f'sunexpo-{year}-{month}-{day}-{hours[0]}h-to-{hours[1]}h.shp')
 
 # create a shpafile to save the sun duration
 driver = ogr.GetDriverByName("ESRI Shapefile")
