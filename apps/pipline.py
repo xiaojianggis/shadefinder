@@ -29,7 +29,7 @@ greenMonthList = ['04', '05', '06', '07', '08', '09', '10', '11']
 os.chdir("sample-spatialdata/")
 root = os.getcwd()
 inshp = os.path.join(root, 'CambridgeStreet_wgs84.shp')
-outfilename = '%s100m.shp' % (cityname)
+outfilename = f'{cityname}-{mini_dist}m.shp'
 
 outshp = os.path.join(root, outfilename)
 MetadatTxt = os.path.join(root, 'metadata')
