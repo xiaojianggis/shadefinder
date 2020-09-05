@@ -100,14 +100,14 @@ for metatxt in os.listdir(MetadatTxt):
 
 # STEP 5. --------- Image segmentation--------
 
-for fisheye in os.listdir(gsvimgs):
-        if not fisheye.endswith('.jpg'): 
+for pano in os.listdir(gsvimgs):
+        if not pano.endswith('.jpg'): 
             continue
 
-        file_path = os.path.join(gsvimgs, fisheye)
-        fisheyeImg = np.array(Image.open(file_path))
-        skyImgFile = os.path.join(gsvimgs, fisheye.replace('.jpg', '_sky.tif'))
-        skyImg = imgclass.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg, skyImgFile)
+        file_path = os.path.join(gsvimgs, pano)
+        panoImg = np.array(Image.open(file_path))
+        skyImgFile = os.path.join(gsvimgs, pano.replace('.jpg', '_sky.tif'))
+        skyImg = imgclass.OBIA_Skyclassification_vote2Modifed_2(panoImg, skyImgFile)
 
 
 # STEP 6. --------- Convert to hemispherical image--------
