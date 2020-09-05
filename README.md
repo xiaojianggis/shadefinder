@@ -51,12 +51,13 @@ source ~/.shadefinder/bin/activate
 ```
 - Install dependencies.
 ```
-# required for Matplotlib
-brew install pkg-config freetype 
 
 # required for Fiona
 brew install gdal 
 pip3 install GDAL==$(gdal-config --version | awk -F'[.]' '{print $1"."$2}')
+
+# required for rtree
+brew install spatialindex
 
 # install dependency of PyMeanShift
 pip3 install numpy==1.18.3
