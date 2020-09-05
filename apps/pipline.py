@@ -5,7 +5,6 @@
 
 import sys
 sys.path.append("./libraries")
-import MetadataCleaningLib as metaclean
 import GsvdownloaderLib as downlib
 import MetadataLib as metalib
 import SpatialLib as spatial
@@ -50,13 +49,7 @@ metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(
     outshp, batchNum, MetadatTxt)
 # metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, batchNum, MetadatTxt)
 
-# STEP 3. ------- Clean the metadata to keep summer GSV record, one pano for one site, 2009-2014, can be modified
-# Clean the metadata to guarantee that one summer panorama is selected
-
-metaclean.metadataCleaning(MetadatTxt, cleaned_meta, greenMonthList)
-
-
-# STEP 4. --------- Check the spatial distribution of the finally selected GSV panos
+# STEP 3. --------- Check the spatial distribution of the finally selected GSV panos
 outputShapefile = os.path.join(cleaned_meta, cityname+'_cleanedSummerGSV.shp')
 
 pntNumlist = []
@@ -95,7 +88,7 @@ spatial.CreatePointFeature_ogr(
 print('created the file', outputShapefile)
 
 
-# STEP 5. ---------- Dowload the GSV panoramas-----------
+# STEP 4. ---------- Dowload the GSV panoramas-----------
 
 print('Download the gsv panoramas')
 
@@ -106,7 +99,7 @@ for metatxt in os.listdir(cleaned_meta):
     downlib.GSVpanoramaDowloader(metatxtfile, greenMonthList, gsvimgs, historical=1)
 
 
-# STEP 6. --------- Image segmentation--------
+# STEP 5. --------- Image segmentation--------
 
 for fisheye in os.listdir(gsvimgs):
         if not fisheye.endswith('.jpg'): 
@@ -118,7 +111,7 @@ for fisheye in os.listdir(gsvimgs):
         skyImg = imgclass.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg, skyImgFile)
 
 
-# STEP 7. --------- Convert to hemispherical image--------
+# STEP 6. --------- Convert to hemispherical image--------
 for pano in os.listdir(gsvimgs):
         if not pano.endswith('_sky.tif'): 
             continue
@@ -132,7 +125,7 @@ for pano in os.listdir(gsvimgs):
         sunexpo.cylinder2fisheyeImage(panoImg, yaw, hemiImgFile)
 
       
-# STEP 8. --------- Calculate if a site is shaded, and save to shapefile--------   
+# STEP 7. --------- Calculate if a site is shaded, and save to shapefile--------   
 # specify the date and time information
 year = 2018
 month = 7
