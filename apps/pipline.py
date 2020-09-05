@@ -32,7 +32,6 @@ outfilename = f'{cityname}-{mini_dist}m.shp'
 
 outshp = os.path.join(root, outfilename)
 MetadatTxt = os.path.join(root, 'metadata')
-cleaned_meta = os.path.join(root, 'cleaned-metadata-sw-recentyear')
 gsvimgs = os.path.join(root, 'gsv-panos')
 segHemiImgs = os.path.join(root, 'seg-hemi')
 
@@ -50,7 +49,7 @@ metalib.GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(
 # metalib.GSVpanoMetadataCollectorBatch_Yaw_fiona(outshp, batchNum, MetadatTxt)
 
 # STEP 3. --------- Check the spatial distribution of the finally selected GSV panos
-outputShapefile = os.path.join(cleaned_meta, cityname+'_cleanedSummerGSV.shp')
+outputShapefile = os.path.join(MetadatTxt, cityname+'_cleanedSummerGSV.shp')
 
 pntNumlist = []
 panoIDlist = []
@@ -59,11 +58,11 @@ latlist = []
 yawlist = []
 datelist = []
 
-for idx, file in enumerate(os.listdir(cleaned_meta)):
+for idx, file in enumerate(os.listdir(MetadatTxt)):
     if not file.endswith('.txt'): 
         continue
 
-    metafilename = os.path.join(cleaned_meta, file)
+    metafilename = os.path.join(MetadatTxt, file)
     # read the meta txt file and read the meta into list
     lines = open(metafilename, "r")
     for line in lines:
@@ -92,9 +91,9 @@ print('created the file', outputShapefile)
 
 print('Download the gsv panoramas')
 
-for metatxt in os.listdir(cleaned_meta):
+for metatxt in os.listdir(MetadatTxt):
     print('The metadata is:', metatxt)
-    metatxtfile = os.path.join(cleaned_meta, metatxt)
+    metatxtfile = os.path.join(MetadatTxt, metatxt)
     # the last param is used to mark historical (1) or non historical (0) gsv meta
     downlib.GSVpanoramaDowloader(metatxtfile, greenMonthList, gsvimgs, historical=1)
 
