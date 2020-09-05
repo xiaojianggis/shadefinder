@@ -1,25 +1,3 @@
-
-## StreetSensing: Using street-level images to understand urban environment
-
-Using Street-level images and computer vision to understand the urban streetscape environment.
-
-Applications: 
-
-1. Google Street View data preparation
-
-2. Meatadata collection, cleanning, and organizing
-
-3. GSV images processing
-- Collect the street-level images
-- Image projections
-- Image segmentation
-- Object segmentation
-
-4. Shade finding
-- Create DSM/DEM from LiDAR cloud point
-- Using Solweig model to estimate the mean radiant temperature
-
-
 ## HIKAGE FINDER
 Summer in Tokyo is incredibly hot!
 The temperature can reach around 40℃ with high humidity. The hot summer environment significantly decreases people’s motivation to walk outdoors, resulting in reduced quality of life – they can’t fully enjoy what the city has to offer them. To address this problem, we created an app that looks for shaded paths in Tokyo’s Shibuya district. HIKAGE FINDER helps you explore the city in comfort by identifying the coolest paths, rather than the shortest ones. It avoids areas of direct sunlight, meaning you can walk more comfortably on those hot summer days. This is how HIKAGE FINDER can enhance your enjoyment of life in the city.
@@ -60,6 +38,57 @@ HIKAGE FINDER enables us to explore the most suitable routes, considering the vo
 ## OPEN STRATEGY
 
 We publish all codes in Github to make your own HIKAGE FINDER for your city. This enables you to collect the relevant datasets and create the algorithm for setting up the app.
+
+
+### HOW TO RUN THE CODE
+Note that we only support Python 3 (up to 3.7).
+
+0. Clone and install dependencies
+- Create a virtual environment and activate it.
+```
+python3 -m venv ~/.shadefinder
+source ~/.shadefinder/bin/activate
+```
+- Install dependencies.
+```
+# required for Matplotlib
+brew install pkg-config freetype 
+
+# required for Fiona
+brew install gdal 
+pip3 install GDAL==$(gdal-config --version | awk -F'[.]' '{print $1"."$2}')
+
+# install dependency of PyMeanShift
+pip3 install numpy==1.18.3
+
+# download PyMeanShift (not available on PIP) and install
+git clone https://github.com/fjean/pymeanshift.git
+cd pymeanshift
+sudo python setup.py install
+cd ../
+
+# clone Treepedia repository and install remaining dependencies using pip
+git clone https://github.com/xiaojianggis/shadefinder.git
+cd shadefinder
+pip3 install -r requirements.txt
+```
+
+Please refer to `apps/pipline.py` in the repository, for an end-to-end flow of the pipeline.
+
+1. Google Street View data preparation
+
+2. Meatadata collection, cleanning, and organizing
+
+3. GSV images processing
+- Collect the street-level images
+- Image projections
+- Image segmentation
+- Object segmentation
+
+4. Shade finding
+- Create DSM/DEM from LiDAR cloud point
+- Using Solweig model to estimate the mean radiant temperature
+
 
 
 ## PUBLICATION
