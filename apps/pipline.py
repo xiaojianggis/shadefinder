@@ -21,7 +21,7 @@ import ogr,osr
 import math
 
 # User-defined parameters 
-mini_dist = 100
+mini_dist = 100 # in meters
 batchNum = 1000
 cityname = 'Cambridge'
 greenMonthList = ['04', '05', '06', '07', '08', '09', '10', '11']
