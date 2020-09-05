@@ -120,7 +120,7 @@ for pano in os.listdir(gsvimgs):
 
         file_path = os.path.join(gsvimgs, pano)
         panoImg = np.array(Image.open(file_path))
-        hemiImgFile = os.path.join(gsvimgs, pano.replace('_sky.tif', '_hemi.jpg'))
+        hemiImgFile = os.path.join(gsvimgs, pano.replace('_sky.tif', '_hemi.tif'))
         sunexpo.cylinder2fisheyeImage(panoImg, yaw, hemiImgFile)
 
       
