@@ -106,34 +106,32 @@ for metatxt in os.listdir(cleaned_meta):
     downlib.GSVpanoramaDowloader(metatxtfile, greenMonthList, gsvimgs, historical=1)
 
 
-# STEP 6. --------- Convert to hemispherical image--------
-for pano in os.listdir(gsvimgs):
-        if not pano.endswith('.jpg'): 
-            continue
-
-        basename = pano.split('.jpg')[0]
-        yaw = basename.split(' - ')[-1]
-
-        file_path = os.path.join(gsvimgs, pano)
-        panoImg = np.array(Image.open(file_path))
-        hemiImgFile = os.path.join(gsvimgs, pano.replace('.jpg', '_hemi.jpg'))
-        sunexpo.cylinder2fisheyeImage(panoImg, yaw, hemiImgFile)
-
-
-# STEP 7. --------- Image segmentation--------
-if not os.path.exists(segHemiImgs):
-        os.makedirs(segHemiImgs)
+# STEP 6. --------- Image segmentation--------
 
 for fisheye in os.listdir(gsvimgs):
-        if not fisheye.endswith('_hemi.jpg'): 
+        if not fisheye.endswith('.jpg'): 
             continue
 
         file_path = os.path.join(gsvimgs, fisheye)
         fisheyeImg = np.array(Image.open(file_path))
-        skyImgFile = os.path.join(segHemiImgs, fisheye.replace('_hemi.jpg', '_sky.tif'))
+        skyImgFile = os.path.join(gsvimgs, fisheye.replace('.jpg', '_sky.tif'))
         skyImg = imgclass.OBIA_Skyclassification_vote2Modifed_2(fisheyeImg, skyImgFile)
 
-        
+
+# STEP 7. --------- Convert to hemispherical image--------
+for pano in os.listdir(gsvimgs):
+        if not pano.endswith('_sky.tif'): 
+            continue
+
+        basename = pano.split('_sky.tif')[0]
+        yaw = basename.split(' - ')[-1]
+
+        file_path = os.path.join(gsvimgs, pano)
+        panoImg = np.array(Image.open(file_path))
+        hemiImgFile = os.path.join(gsvimgs, pano.replace('_sky.tif', '_hemi.jpg'))
+        sunexpo.cylinder2fisheyeImage(panoImg, yaw, hemiImgFile)
+
+      
 # STEP 8. --------- Calculate if a site is shaded, and save to shapefile--------   
 # specify the date and time information
 year = 2018
