@@ -11,6 +11,8 @@
 # thrid version May 4, 2018
 # Last modified by Xiaojiang Li, MIT Senseable City Lab, March 25, 2018
 
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # now run the python file: createPoints.py, the input shapefile has to be in projection of WGS84, 4326
 def createPoints(inshp, outshp, mini_dist):
