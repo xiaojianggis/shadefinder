@@ -395,6 +395,8 @@ def GSVpanoMetadataCollectorBatch_Yaw_TimeMachine2(samplesFeatureClass,num,ouput
                             panoInfoText.write(lineTxt)
                     print ('This point (%s,%s) has %d panorama ids'%(panoLon,panoLat,count))
                 
+                except (KeyboardInterrupt, SystemExit):
+                    raise
                 except:
                     continue
                     print('no pano available')
