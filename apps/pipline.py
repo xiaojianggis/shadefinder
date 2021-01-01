@@ -33,7 +33,6 @@ outfilename = f'{cityname}-{mini_dist}m.shp'
 outshp = os.path.join(root, outfilename)
 MetadatTxt = os.path.join(root, 'metadata')
 gsvimgs = os.path.join(root, 'gsv-panos')
-segHemiImgs = os.path.join(root, 'seg-hemi')
 
 # Step 1. ------- Sampling part -----------------------
 spl.createPoints(inshp, outshp, mini_dist)
@@ -164,14 +163,14 @@ for hour in hours:
     outLayer.CreateField(exposureField)
 
 i = 0
-for skyimgfile in os.listdir(segHemiImgs):
-        if not skyimgfile.endswith('_sky.tif'): 
+for skyimgfile in os.listdir(gsvimgs):
+        if not skyimgfile.endswith('_hemi.tif'): 
             continue
 
         i = i + 1
         if i % 1000 == 0: print('You have processed %s'%(i))
 
-        skyImgFileFullname = os.path.join(segHemiImgs, skyimgfile)
+        skyImgFileFullname = os.path.join(gsvimgs, skyimgfile)
         skyImg = np.asarray(Image.open(skyImgFileFullname))
 
         basename = skyimgfile.split('_sky.')[0]
