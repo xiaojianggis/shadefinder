@@ -77,6 +77,7 @@ for idx, file in enumerate(os.listdir(MetadatTxt)):
         except:
             print('read metadata txt failed')
             continue
+    lines.close()
 
 
 attr_dict = {'pntnum': pntNumlist, 'yaw': yawlist}
