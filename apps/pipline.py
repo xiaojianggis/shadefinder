@@ -4,7 +4,7 @@
 # Copyright(c) Xiaojiang Li, MIT Senseable City Lab
 
 import sys
-sys.path.append("./libraries")
+sys.path.append('./libraries')
 import GsvdownloaderLib as downlib
 import MetadataLib as metalib
 import SpatialLib as spatial
@@ -25,7 +25,7 @@ batchNum = 1000
 cityname = 'Cambridge'
 greenMonthList = ['04', '05', '06', '07', '08', '09', '10', '11']
 
-os.chdir("sample-spatialdata/")
+os.chdir('sample-spatialdata/')
 root = os.getcwd()
 inshp = os.path.join(root, 'CambridgeStreet_wgs84.shp')
 outfilename = f'{cityname}-{mini_dist}m.shp'
@@ -63,7 +63,7 @@ for idx, file in enumerate(os.listdir(MetadatTxt)):
 
     metafilename = os.path.join(MetadatTxt, file)
     # read the meta txt file and read the meta into list
-    lines = open(metafilename, "r")
+    lines = open(metafilename, 'r')
     for line in lines:
         try:
             elements = line.split(' ')
@@ -144,7 +144,7 @@ hours = [9, 12, 14, 17]
 shpfile = os.path.join(root, f'sunexpo-{year}-{month}-{day}-{hours[0]}h-to-{hours[1]}h.shp')
 
 # create a shpafile to save the sun duration
-driver = ogr.GetDriverByName("ESRI Shapefile")
+driver = ogr.GetDriverByName('ESRI Shapefile')
 
 if os.path.exists(shpfile):
     driver.DeleteDataSource(shpfile)
@@ -154,7 +154,7 @@ data_source = driver.CreateDataSource(shpfile)
 targetSpatialRef = osr.SpatialReference()
 targetSpatialRef.ImportFromEPSG(4326)
 
-outLayer = data_source.CreateLayer("Sunexpo", targetSpatialRef, ogr.wkbPoint)
+outLayer = data_source.CreateLayer('Sunexpo', targetSpatialRef, ogr.wkbPoint)
 panoId = ogr.FieldDefn('panoid', ogr.OFTString)
 outLayer.CreateField(panoId)
 
