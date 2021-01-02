@@ -74,7 +74,7 @@ cd shadefinder
 pip3 install -r requirements.txt
 ```
 
-Please refer to [apps/pipline.py](shadefinder/apps/pipline.py) in the repository, for an end-to-end flow of the pipeline.
+Please refer to [apps/pipline.py](apps/pipline.py) in the repository, for an end-to-end flow of the pipeline.
 
 1. Google Street View data preparation
 
