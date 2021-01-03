@@ -14,7 +14,8 @@ We collected Google Street View images and obtained a street network from Open S
 
 2. Geometrical transformation from GSV to Hemispherical image
 
-We used PSPNet, an image segmentation algorithm, to segment GSV panoramas into sky pixels and obstruction pixels. This allowed us to calculate the dimension of the area exposed to sunlight. The segmented GSV panoramas were then transformed into a hemispherical image.
+We used PSPNet*, an image segmentation algorithm, to segment GSV panoramas into sky pixels and obstruction (i.e. non-sky) pixels. This allowed us to calculate the dimension of the area exposed to sunlight. The segmented GSV panoramas were then transformed into a hemispherical image.
+*Note: the example code uses the Mean Shift algorithm.
 
 ![step2](images/step2.png)
 
