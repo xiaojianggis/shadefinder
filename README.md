@@ -77,20 +77,37 @@ pip3 install -r requirements.txt
 
 Please refer to [apps/pipline.py](apps/pipline.py) in the repository, for an end-to-end flow of the pipeline.
 
-1. Google Street View data preparation
+1. Google Street View data preparation (Step 1 of pipeline)
 
-2. Meatadata collection, cleanning, and organizing
+2. Meatadata collection, cleanning, and organizing (Steps 2-3 of pipeline)
 
-3. GSV images processing
+3. GSV images processing (Steps 4-6 of pipeline)
 - Collect the street-level images
 - Image projections
 - Image segmentation
 - Object segmentation
 
-4. Shade finding
+4. Shade finding (Step 7 of pipeline)
 - Create DSM/DEM from LiDAR cloud point
 - Using Solweig model to estimate the mean radiant temperature
 
+#### About classification algorithm (Step 5)
+In Step 5 of the example code, we use a simple algorithm known as Mean Shift, to process the GSV image and segment it into sky and non-sky. For best results, you can use neural network-based classification methods.
+
+We provide [some example code](https://github.com/y26805/semantic-segmentation-pytorch) to make use of pre-trained neutral networks. The original code by MIT CSAIL has been modified such that it feeds into the pipeline of this programme. 
+
+For example, to use a pre-trained ResNet50dilated + PPM_deepsup network for classification, simply run the following in your deep learning environment (requires PyTorch):
+
+```
+# clone the repository
+git clone https://github.com/y26805/semantic-segmentation-pytorch.git
+
+# suppose all images downloaded in Step 4 are contained in a folder called `gsv-images`
+cd semantic-segmentation-pytorch
+python3 -u test.py --imgs ./gsv-images/ --cfg config/ade20k-resnet50dilated-ppm_deepsup.yaml 
+```
+
+This outputs segmented images as `_sky.tif` in your working directory. Sky pixels are white and non-sky pixels are black. Afterwards, you can continue with Step 6 and 7 of the pipeline.
 
 
 ## PUBLICATION
